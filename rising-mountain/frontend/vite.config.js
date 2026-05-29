@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/rising-mountain/',
+  base: '/Rising-Mountain/',
   plugins: [react()],
   server: {
     port: 5173,
