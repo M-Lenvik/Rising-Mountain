@@ -24,7 +24,7 @@ export default function StorePage() {
 
   // Hämta kategorier en gång för att få deras ID:n
   useEffect(() => {
-    fetch('http://localhost:9000/store/product-categories?limit=100', {
+    fetch(`${import.meta.env.VITE_MEDUSA_BACKEND_URL || 'http://localhost:9000'}/store/product-categories?limit=100`, {
       headers: { 'x-publishable-api-key': import.meta.env.VITE_MEDUSA_PUBLISHABLE_KEY }
     })
       .then(r => r.json())
