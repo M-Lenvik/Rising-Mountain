@@ -24,7 +24,7 @@ export default function ProductPage() {
 
   return (
     <div className={styles.page}>
-      <Link to="/" className={styles.back}>← Tillbaka till butiken</Link>
+      <Link to="/shop" className={styles.back}>← Tillbaka till butiken</Link>
       <div className={styles.layout}>
         <div className={styles.imgCol}>
           {product.thumbnail

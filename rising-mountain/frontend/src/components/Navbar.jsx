@@ -9,8 +9,8 @@ export default function Navbar() {
         <span className={styles.sub}>Nissan · Datsun Parts</span>
       </Link>
       <div className={styles.links}>
-        <Link to="/">Shop</Link>
-        <a href="#">Om oss</a>
+        <Link to="/shop">Shop</Link>
+        <Link to="/">Om oss</Link>
         <a href="#">Frakt & retur</a>
         <a href="#">Kontakt</a>
       </div>

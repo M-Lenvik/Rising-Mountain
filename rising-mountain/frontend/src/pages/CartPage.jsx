@@ -6,7 +6,7 @@ export default function CartPage() {
     <div className={styles.page}>
       <h1>Kundvagn</h1>
       <p>Kundvagnen är tom.</p>
-      <Link to="/" className={styles.back}>← Fortsätt handla</Link>
+      <Link to="/shop" className={styles.back}>← Fortsätt handla</Link>
     </div>
   )
 }
