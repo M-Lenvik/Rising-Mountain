@@ -8,7 +8,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'http://localhost:9000',
+        target: process.env.VITE_MEDUSA_BACKEND_URL || 'http://localhost:9000',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, '')
       }
