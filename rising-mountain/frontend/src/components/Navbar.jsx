@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import logoImg from '../assets/RisingMountain_logga.png'
 import styles from './Navbar.module.css'
 
 export default function Navbar() {
@@ -12,8 +13,11 @@ export default function Navbar() {
   return (
     <nav className={styles.nav}>
       <Link to="/" className={styles.logo} onClick={closeMenu}>
-        RISING<span>MOUNTAIN</span>
-        <span className={styles.sub}>Nissan · Datsun Parts</span>
+        <img src={logoImg} alt="Rising Mountain" className={styles.logoImg} />
+        <span className={styles.logoText}>
+          <span className={styles.logoName}>RISING<span className={styles.gold}>MOUNTAIN</span></span>
+          <span className={styles.sub}>Nissan · Datsun Parts</span>
+        </span>
       </Link>
 
       <button
@@ -27,9 +31,9 @@ export default function Navbar() {
       </button>
 
       <div className={`${styles.links} ${menuOpen ? styles.linksOpen : ''}`}>
-        <Link to="/shop" onClick={closeMenu}>Shop</Link>
-        <Link to="/about" onClick={closeMenu}>Om oss</Link>
+        <Link to="/shop" onClick={closeMenu}>Delar</Link>
         <Link to="/shipping" onClick={closeMenu}>Frakt & retur</Link>
+        <Link to="/about" onClick={closeMenu}>Om Rising Mountain</Link>
         <Link to="/contact" onClick={closeMenu}>Kontakt</Link>
       </div>
 
