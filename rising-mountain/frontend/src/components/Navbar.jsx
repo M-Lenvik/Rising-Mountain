@@ -35,6 +35,7 @@ export default function Navbar() {
         <Link to="/shipping" onClick={closeMenu}>Frakt & retur</Link>
         <Link to="/about" onClick={closeMenu}>Om Rising Mountain</Link>
         <Link to="/contact" onClick={closeMenu}>Kontakt</Link>
+        <Link to="/cart" className={styles.cartBtnMobile} onClick={closeMenu}>🛒 Korg</Link>
       </div>
 
       <Link to="/cart" className={styles.cartBtn} onClick={closeMenu}>🛒 Korg</Link>

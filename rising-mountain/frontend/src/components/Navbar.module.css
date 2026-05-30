@@ -71,7 +71,7 @@
   display: flex;
   align-items: center;
   gap: clamp(16px, 3vw, 52px);
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.85);
 }
@@ -94,6 +94,10 @@
 
 .cartBtn:hover { background: #b8973d; }
 
+.cartBtnMobile {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .nav {
     padding: 12px 16px;
@@ -101,15 +105,35 @@
   }
 
   .logoImg {
-    height: 40px;
+    height: 44px;
   }
 
   .logoText {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+  }
+
+  .sub {
+    font-size: 0.75rem;
   }
 
   .menuBtn {
     display: block;
+    margin-left: auto;
+  }
+
+  .cartBtn {
+    display: none;
+  }
+
+  .cartBtnMobile {
+    display: inline-block;
+    background: #c9a84c;
+    color: #000;
+    padding: 10px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 3px;
+    margin-top: 4px;
   }
 
   .links {
@@ -117,19 +141,13 @@
     width: 100%;
     flex-direction: column;
     align-items: flex-start;
-    gap: 14px;
-    padding: 8px 0 8px;
+    gap: 16px;
+    padding: 12px 0 8px;
     border-top: 1px solid rgba(255, 255, 255, 0.15);
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .linksOpen {
     display: flex;
-  }
-}
-
-@media (max-width: 400px) {
-  .cartBtn {
-    padding: 8px 12px;
   }
 }

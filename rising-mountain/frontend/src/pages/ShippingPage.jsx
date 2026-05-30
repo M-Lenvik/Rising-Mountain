@@ -16,7 +16,7 @@ export default function ShippingPage() {
         </p>
         <h2>Retur</h2>
         <p>
-          Eftersom det rör sig om begagnade bildelar säljs de i befintligt skick. Jag beskriver
+          Eftersom det rör sig om begagnade bildelar säljs de i befintligt skick och jag tar inte emot returer. Jag beskriver
           varje del så noggrant som möjligt. Har du frågor om en specifik del är du alltid
           välkommen att höra av dig innan köp.
         </p>
