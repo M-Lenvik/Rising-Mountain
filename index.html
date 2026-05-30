@@ -9,5 +9,16 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      (function() {
+        var p = window.location.search.match(/[?&]p=([^&]*)/);
+        if (p) {
+          var path = decodeURIComponent(p[1]);
+          var h = window.location.search.match(/[?&]h=([^&]*)/);
+          var hash = h ? '#' + decodeURIComponent(h[1]) : '';
+          window.history.replaceState(null, null, '/' + path + hash);
+        }
+      })();
+    </script>
   </body>
 </html>
