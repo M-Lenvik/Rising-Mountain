@@ -42,7 +42,7 @@ export default function StorePage() {
   async function fetchProducts() {
     setLoading(true)
     try {
-      const params = { limit: 100, fields: '+images,+thumbnail' }
+      const params = { limit: 100, fields: '+images,+thumbnail,+variants.inventory_quantity' }
       if (search) params.q = search
       if (activeCategories.length > 0) {
         const ids = activeCategories
