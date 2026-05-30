@@ -28,9 +28,9 @@ export default function Navbar() {
 
       <div className={`${styles.links} ${menuOpen ? styles.linksOpen : ''}`}>
         <Link to="/shop" onClick={closeMenu}>Shop</Link>
-        <Link to="/" onClick={closeMenu}>Om oss</Link>
-        <a href="#" onClick={closeMenu}>Frakt & retur</a>
-        <a href="#" onClick={closeMenu}>Kontakt</a>
+        <Link to="/about" onClick={closeMenu}>Om oss</Link>
+        <Link to="/shipping" onClick={closeMenu}>Frakt & retur</Link>
+        <Link to="/contact" onClick={closeMenu}>Kontakt</Link>
       </div>
 
       <Link to="/cart" className={styles.cartBtn} onClick={closeMenu}>🛒 Korg</Link>

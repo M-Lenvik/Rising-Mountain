@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import risingMountainImg from '../assets/RisingMountain_logga.png'
+import risingMountainImg from '../assets/RisingMountain_landingpage.png'
 import styles from './LandingPage.module.css'
 
 export default function LandingPage() {
@@ -24,16 +24,6 @@ export default function LandingPage() {
           Här hittar du begagnade bildelar — framför allt till Nissan och Datsun,
           men det finns också en del delar till andra märken.
         </p>
-
-        <div className={styles.infoBox}>
-          <h2>Efter köp</h2>
-          <p>
-            När du lagt din beställning tar vi kontakt med dig. Delarna skickas så
-            snart som möjligt, men eftersom de förvaras på lantstället kan det
-            ibland dröja ett par veckor. Har man tur går paketet iväg redan dagen
-            efter.
-          </p>
-        </div>
 
         <Link to="/shop" className={styles.shopBtn}>
           Till butiken →
