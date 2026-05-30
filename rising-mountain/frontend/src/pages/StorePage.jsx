@@ -42,7 +42,7 @@ export default function StorePage() {
   async function fetchProducts() {
     setLoading(true)
     try {
-      const params = { limit: 100, fields: '+images,+thumbnail,+variants.inventory_quantity' }
+      const params = { limit: 100, fields: '+images,+thumbnail' }
       if (search) params.q = search
       if (activeCategories.length > 0) {
         const ids = activeCategories
@@ -52,9 +52,9 @@ export default function StorePage() {
         if (ids.length > 0) params.category_id = ids
       }
       const { products: data } = await medusa.store.product.list(params)
-      // Filtrera bort produkter utan lager
+      // Filtrera bort produkter utan lager (om variants saknas, visa produkten)
       const inStock = data.filter(p =>
-        p.variants?.some(v => (v.inventory_quantity ?? 1) > 0)
+        !p.variants?.length || p.variants.some(v => (v.inventory_quantity ?? 1) > 0)
       )
       setProducts(inStock)
     } catch (e) {
