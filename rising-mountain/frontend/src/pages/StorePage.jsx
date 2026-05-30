@@ -21,6 +21,7 @@ export default function StorePage() {
   const [activeCategories, setActiveCategories] = useState([])
   const [activeModels, setActiveModels] = useState([])
   const [openParents, setOpenParents] = useState({})
+  const [filtersOpen, setFiltersOpen] = useState(false)
 
   // Hämta kategorier en gång för att få deras ID:n
   useEffect(() => {
@@ -90,8 +91,17 @@ export default function StorePage() {
 
   return (
     <div className={styles.layout}>
+      <button
+        type="button"
+        className={styles.filterToggle}
+        aria-expanded={filtersOpen}
+        onClick={() => setFiltersOpen(open => !open)}
+      >
+        {filtersOpen ? 'Dölj filter ▲' : 'Visa filter ▼'}
+      </button>
+
       {/* SIDEBAR */}
-      <aside className={styles.sidebar}>
+      <aside className={`${styles.sidebar} ${filtersOpen ? styles.sidebarOpen : ''}`}>
         <h3>Kategori</h3>
         {categories.map(cat => (
           <label key={cat.id} className={styles.filterChild}>

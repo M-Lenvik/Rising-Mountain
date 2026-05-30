@@ -1,3 +1,24 @@
-.page { max-width: 700px; margin: 40px auto; padding: 0 24px; }
-.page h1 { font-size: 22px; margin-bottom: 12px; }
-.back { color: #888; font-size: 13px; display: inline-block; margin-top: 16px; }
+.page {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 24px;
+}
+
+.page h1 {
+  font-size: clamp(1.25rem, 4vw, 1.375rem);
+  margin-bottom: 12px;
+}
+
+.back {
+  color: #888;
+  font-size: 13px;
+  display: inline-block;
+  margin-top: 16px;
+}
+
+@media (max-width: 768px) {
+  .page {
+    margin: 24px auto;
+    padding: 0 16px;
+  }
+}

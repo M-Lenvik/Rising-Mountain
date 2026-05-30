@@ -2,7 +2,6 @@
 .back { font-size: 13px; color: #888; display: inline-block; margin-bottom: 24px; }
 .back:hover { color: #1a1a1a; }
 .layout { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
-.imgCol {}
 .img { width: 100%; border-radius: 4px; }
 .imgPlaceholder { width: 100%; aspect-ratio: 1; background: #f0f0f0; display: flex; align-items: center; justify-content: center; font-size: 80px; border-radius: 4px; }
 .title { font-size: 22px; font-weight: 700; margin-bottom: 8px; }
@@ -15,6 +14,34 @@
 .stock { font-size: 13px; margin-bottom: 20px; }
 .inStock { color: #16a34a; }
 .outOfStock { color: #dc2626; }
-.addBtn { background: #1a1a1a; color: #fff; border: none; padding: 12px 28px; font-size: 14px; font-weight: 600; border-radius: 3px; width: 100%; }
+.addBtn { background: #1a1a1a; color: #fff; border: none; padding: 12px 28px; font-size: 14px; font-weight: 600; border-radius: 3px; width: 100%; max-width: 320px; }
 .addBtn:hover { background: #c9a84c; color: #000; }
-.loading { padding: 60px; text-align: center; color: #888; }
+.loading { padding: 60px 24px; text-align: center; color: #888; }
+
+@media (max-width: 768px) {
+  .page {
+    margin: 16px auto;
+    padding: 0 16px;
+  }
+
+  .layout {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .price {
+    font-size: 24px;
+  }
+
+  .imgPlaceholder {
+    font-size: 56px;
+  }
+
+  .addBtn {
+    max-width: none;
+  }
+}
