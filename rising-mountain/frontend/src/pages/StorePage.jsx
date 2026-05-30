@@ -192,7 +192,7 @@ function ProductCard({ product }) {
         <div className={styles.cardFooter}>
           <div>
             <div className={styles.price}>
-              {price != null ? `${Math.round(price / 100)} kr` : '–'}
+              {price != null ? `${Math.round(price)} kr` : '–'}
             </div>
             {stock > 0 && (
               <div className={`${styles.stock} ${stock > 3 ? styles.inStock : styles.lowStock}`}>
