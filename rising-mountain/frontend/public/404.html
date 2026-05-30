@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      var l = window.location;
+      var base = '/Rising-Mountain/';
+      var path = l.pathname.slice(base.length);
+      l.replace(
+        l.protocol + '//' + l.host + base +
+        '?p=' + encodeURIComponent(path + l.search) +
+        (l.hash ? '&h=' + encodeURIComponent(l.hash.slice(1)) : '')
+      );
+    </script>
+  </head>
+  <body></body>
+</html>
