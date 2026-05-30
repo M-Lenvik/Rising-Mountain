@@ -32,6 +32,9 @@ module.exports = defineConfig({
               additional_client_config: {
                 forcePathStyle: true,
               },
+              upload_options: {
+                ACL: undefined,
+              },
             },
           },
         ],
