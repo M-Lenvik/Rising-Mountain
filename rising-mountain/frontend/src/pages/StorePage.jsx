@@ -169,7 +169,7 @@ export default function StorePage() {
 function ProductCard({ product }) {
   const variant = product.variants?.[0]
   const price = variant?.calculated_price?.calculated_amount
-  const stock = variant?.manage_inventory ? variant?.inventory_quantity : null
+  const stock = variant?.inventory_quantity
 
   return (
     <Link to={`/products/${product.handle}`} className={styles.card}>
@@ -194,9 +194,9 @@ function ProductCard({ product }) {
             <div className={styles.price}>
               {price != null ? `${Math.round(price / 100)} kr` : '–'}
             </div>
-            {stock !== null && (
+            {stock > 0 && (
               <div className={`${styles.stock} ${stock > 3 ? styles.inStock : styles.lowStock}`}>
-                {stock > 3 ? `✓ ${stock} i lager` : stock > 0 ? `⚠ ${stock} kvar` : 'Slutsåld'}
+                {stock > 3 ? `✓ ${stock} i lager` : `⚠ ${stock} kvar`}
               </div>
             )}
           </div>
