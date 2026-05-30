@@ -42,7 +42,7 @@ export default function StorePage() {
   async function fetchProducts() {
     setLoading(true)
     try {
-      const params = { limit: 100, fields: '+images,+thumbnail', region_id: 'reg_01KSW8SZAV6K59SW8V71X53A87' }
+      const params = { limit: 100, fields: '+images,+thumbnail,+variants.inventory_quantity', region_id: 'reg_01KSW8SZAV6K59SW8V71X53A87' }
       if (search) params.q = search
       if (activeCategories.length > 0) {
         const ids = activeCategories
@@ -192,7 +192,7 @@ function ProductCard({ product }) {
         <div className={styles.cardFooter}>
           <div>
             <div className={styles.price}>
-              {price != null ? `${Math.round(price)} kr` : '–'}
+              {price != null ? `${Math.round(price * 100)} kr` : '–'}
             </div>
             {stock > 0 && (
               <div className={`${styles.stock} ${stock > 3 ? styles.inStock : styles.lowStock}`}>
