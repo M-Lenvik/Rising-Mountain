@@ -169,7 +169,7 @@ export default function StorePage() {
 function ProductCard({ product }) {
   const variant = product.variants?.[0]
   const price = variant?.calculated_price?.calculated_amount
-  const stock = variant?.inventory_quantity
+  const stock = variant?.manage_inventory ? variant?.inventory_quantity : null
 
   return (
     <Link to={`/products/${product.handle}`} className={styles.card}>
@@ -194,9 +194,11 @@ function ProductCard({ product }) {
             <div className={styles.price}>
               {price != null ? `${Math.round(price / 100)} kr` : '–'}
             </div>
-            <div className={`${styles.stock} ${stock > 3 ? styles.inStock : styles.lowStock}`}>
-              {stock > 3 ? `✓ ${stock} i lager` : stock > 0 ? `⚠ ${stock} kvar` : 'Slutsåld'}
-            </div>
+            {stock !== null && (
+              <div className={`${styles.stock} ${stock > 3 ? styles.inStock : styles.lowStock}`}>
+                {stock > 3 ? `✓ ${stock} i lager` : stock > 0 ? `⚠ ${stock} kvar` : 'Slutsåld'}
+              </div>
+            )}
           </div>
           <button className={styles.addBtn} onClick={e => e.preventDefault()}>+ Korg</button>
         </div>
