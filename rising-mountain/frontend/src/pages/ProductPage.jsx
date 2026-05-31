@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { medusa } from '../lib/medusa.js'
+import { getProductImage } from '../lib/productImages.js'
 import styles from './ProductPage.module.css'
 
 export default function ProductPage() {
@@ -27,10 +28,10 @@ export default function ProductPage() {
       <Link to="/shop" className={styles.back}>← Tillbaka till butiken</Link>
       <div className={styles.layout}>
         <div className={styles.imgCol}>
-          {product.thumbnail
-            ? <img src={product.thumbnail} alt={product.title} className={styles.img} />
+          {(() => { const img = product.thumbnail || getProductImage(product.handle); return img
+            ? <img src={img} alt={product.title} className={styles.img} />
             : <div className={styles.imgPlaceholder}>🔧</div>
-          }
+          })()}
         </div>
         <div className={styles.infoCol}>
           <h1 className={styles.title}>{product.title}</h1>

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { medusa } from '../lib/medusa.js'
+import { getProductImage } from '../lib/productImages.js'
 import styles from './StorePage.module.css'
 
 // Kategorihierarki — speglar det vi satt upp i Medusa
@@ -180,12 +181,13 @@ function ProductCard({ product }) {
   const variant = product.variants?.[0]
   const price = variant?.calculated_price?.calculated_amount
   const stock = variant?.inventory_quantity
+  const img = product.thumbnail || getProductImage(product.handle)
 
   return (
     <Link to={`/products/${product.handle}`} className={styles.card}>
       <div className={styles.cardImg}>
-        {product.thumbnail
-          ? <img src={product.thumbnail} alt={product.title} />
+        {img
+          ? <img src={img} alt={product.title} />
           : <span>🔧</span>
         }
       </div>
@@ -206,11 +208,11 @@ function ProductCard({ product }) {
             </div>
             {stock > 0 && (
               <div className={`${styles.stock} ${stock > 3 ? styles.inStock : styles.lowStock}`}>
-                {stock > 3 ? `✓ ${stock} i lager` : `⚠ ${stock} kvar`}
+                {stock > 3 ? `✓ Finns ${stock} st` : `Finns ${stock} st`}
               </div>
             )}
           </div>
-          <button className={styles.addBtn} onClick={e => e.preventDefault()}>+ Korg</button>
+          <button className={styles.addBtn} onClick={e => e.preventDefault()}>+ Köp</button>
         </div>
       </div>
     </Link>

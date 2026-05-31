@@ -26,7 +26,7 @@ export default function LandingPage() {
         </p>
 
         <Link to="/shop" className={styles.shopBtn}>
-          Till butiken →
+          Se alla delar →
         </Link>
       </section>
     </div>
