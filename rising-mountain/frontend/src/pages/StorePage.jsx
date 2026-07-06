@@ -26,12 +26,11 @@ export default function StorePage() {
 
   // Hämta kategorier en gång för att få deras ID:n
   useEffect(() => {
-    fetch(`${import.meta.env.VITE_MEDUSA_BACKEND_URL || 'http://localhost:9000'}/store/product-categories?limit=100`, {
+    fetch(`${import.meta.env.VITE_MEDUSA_BACKEND_URL || 'http://localhost:9000'}/store/product-categories?limit=100&include_descendants_tree=true`, {
       headers: { 'x-publishable-api-key': import.meta.env.VITE_MEDUSA_PUBLISHABLE_KEY }
     })
       .then(r => r.json())
       .then(data => {
-        console.log('Kategorier:', data.product_categories)
         setCategories(data.product_categories || [])
       })
       .catch(e => console.error('Kategorifel:', e))
@@ -104,16 +103,39 @@ export default function StorePage() {
       {/* SIDEBAR */}
       <aside className={`${styles.sidebar} ${filtersOpen ? styles.sidebarOpen : ''}`}>
         <h3>Kategori</h3>
-        {categories.map(cat => (
-          <label key={cat.id} className={styles.filterChild}>
-            <input
-              type="checkbox"
-              checked={activeCategories.includes(cat.name)}
-              onChange={() => toggleCategory(cat.name)}
-            />
-            {cat.name}
-          </label>
-        ))}
+        {(() => {
+          const parents = categories.filter(c => !c.parent_category_id)
+          const children = categories.filter(c => c.parent_category_id)
+          if (parents.length === 0) return categories.map(cat => (
+            <label key={cat.id} className={styles.filterChild}>
+              <input type="checkbox" checked={activeCategories.includes(cat.name)} onChange={() => toggleCategory(cat.name)} />
+              {cat.name}
+            </label>
+          ))
+          return parents.map(parent => {
+            const subs = children.filter(c => c.parent_category_id === parent.id)
+            const isOpen = openParents[parent.id] !== false
+            return (
+              <div key={parent.id} className={styles.filterGroup}>
+                <button type="button" className={styles.filterParent} onClick={() => toggleParent(parent.id)}>
+                  {parent.name} <span>{isOpen ? '▲' : '▼'}</span>
+                </button>
+                {isOpen && subs.map(sub => (
+                  <label key={sub.id} className={styles.filterChild}>
+                    <input type="checkbox" checked={activeCategories.includes(sub.name)} onChange={() => toggleCategory(sub.name)} />
+                    {sub.name}
+                  </label>
+                ))}
+                {isOpen && subs.length === 0 && (
+                  <label className={styles.filterChild}>
+                    <input type="checkbox" checked={activeCategories.includes(parent.name)} onChange={() => toggleCategory(parent.name)} />
+                    {parent.name}
+                  </label>
+                )}
+              </div>
+            )
+          })
+        })()}
 
         <h3 style={{ marginTop: '20px' }}>Modell</h3>
         <div className={styles.modelTags}>
@@ -201,6 +223,7 @@ function ProductCard({ product }) {
             ))}
           </div>
         )}
+        {product.description && <div className={styles.cardDesc}><strong>Beskrivning:</strong> {product.description}</div>}
         <div className={styles.cardFooter}>
           <div>
             <div className={styles.price}>

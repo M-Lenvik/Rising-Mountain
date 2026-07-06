@@ -9,10 +9,13 @@
 .models { display: flex; align-items: center; flex-wrap: wrap; gap: 4px; margin-bottom: 16px; }
 .modelsLabel { font-size: 12px; color: #666; margin-right: 4px; }
 .modelBadge { background: #e8f0fe; color: #1a56db; font-size: 11px; padding: 2px 7px; border-radius: 10px; }
-.desc { font-size: 13px; color: #444; line-height: 1.6; margin-bottom: 20px; }
+.descBlock { margin-bottom: 20px; }
+.descLabel { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: #888; margin-bottom: 4px; }
+.desc { font-size: 13px; color: #444; line-height: 1.6; }
 .price { font-size: 28px; font-weight: 700; margin-bottom: 6px; }
 .stock { font-size: 13px; margin-bottom: 20px; }
 .inStock { color: #16a34a; }
+.lowStock { color: #d97706; }
 .outOfStock { color: #dc2626; }
 .addBtn { background: #1a1a1a; color: #fff; border: none; padding: 12px 28px; font-size: 14px; font-weight: 600; border-radius: 3px; width: 100%; max-width: 320px; }
 .addBtn:hover { background: #c9a84c; color: #000; }

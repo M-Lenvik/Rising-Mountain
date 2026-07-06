@@ -10,7 +10,11 @@ export default function ProductPage() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    medusa.store.product.list({ handle }).then(({ products }) => {
+    medusa.store.product.list({
+      handle,
+      fields: '+variants.inventory_quantity',
+      region_id: 'reg_01KSW8SZAV6K59SW8V71X53A87',
+    }).then(({ products }) => {
       setProduct(products[0] || null)
       setLoading(false)
     })
@@ -44,16 +48,21 @@ export default function ProductPage() {
               ))}
             </div>
           )}
-          {product.description && <p className={styles.desc}>{product.description}</p>}
+          {product.description && (
+            <div className={styles.descBlock}>
+              <div className={styles.descLabel}>Beskrivning</div>
+              <p className={styles.desc}>{product.description}</p>
+            </div>
+          )}
           <div className={styles.price}>
-            {price != null ? `${Math.round(price / 100)} kr` : '–'}
-          </div>
-          <div className={`${styles.stock} ${stock > 0 ? styles.inStock : styles.outOfStock}`}>
-            {stock > 3 ? `✓ ${stock} i lager` : stock > 0 ? `⚠ Endast ${stock} kvar` : 'Slutsåld'}
+            {price != null ? `${Math.round(price)} kr` : '–'}
           </div>
           {stock > 0 && (
-            <button className={styles.addBtn}>Lägg i kundvagn</button>
+            <div className={`${styles.stock} ${stock > 3 ? styles.inStock : styles.lowStock}`}>
+              {stock > 3 ? `✓ ${stock} i lager` : `Finns ${stock} st`}
+            </div>
           )}
+          <button className={styles.addBtn}>Köp</button>
         </div>
       </div>
     </div>
