@@ -1,0 +1,811 @@
+art nummer	beskrivning	antal	Modell				
+?	Lamp Rear	1	710	Höger Bakljus sedan -74 till -75			
+?	Bumper Corner	1	?	Svart plast okänd modell			
+?	Accent Stripe	1	N10	Datsun Cherry		Philipson kartong 1	
+?	Wheel Cylinder	2		11/16 tum 1 Tokico 1 Nabco		Kartong Leksandsbröd	
+?				Motorfäste		Philipson kartong 1	
+?	Belt Set	1				Philipson kartong 2	
+?	Cable	1		Typ Hastighetsmätarkabel		Philipson kartong 1	
+?	Cable	3		Typ hast kabel märkt KK0652 (Philipsson Nr)			
+01121-01061	Bolt	8		Bult eloxerad		Kartong Träolja	
+01136-00031	Bolt	2	N12	Skruv, platt, kryss	Svart	Kartong Träolja	
+01211-00011	Nut	4		Mutter större eloxerad		Kartong Träolja	
+01211-1401M	mutter	1					
+01217-00052	Nut	6	B11/B12 mm			Kartong Träolja	
+01225-00062	mutter	1	T12,				
+01241-00341	Clip Mutter	3					
+01281-00811	Clips Plast	5					
+01553-00171	Clip list 610	Ca 20	610				
+01553-00572		5					
+01553-01753		3					
+01553-02413		4					
+01553-02781		3					
+01553-6930E		6					
+02996-01100	Handle Jack	1				Kartong Pågen	
+08330-51042	Screw	4					
+08911-64810	mutter	2					
+08912-9441A	Mutter	4					
+08964-1055A	Nut spring	1					
+10101-U6028	Gasket Kit	1		L16 L18			
+11021-J200A	Plug Blind	1					
+11042-23026	Gasket Kit	1		L16 L18			
+11044-27L00	Gasket	1	C31	Topplockspackning 6-cyl		Spar denna	60€
+11053-01M00	Dowel Block	1					
+11062-34N01	Gasket	1					
+11062-AD20A	Gasket Water out	1					
+11062-AD20B	Gasket Outlet	1					
+11072-69T60	Gasket Thermost	1					
+11086-43G00	Cable Assy	1					
+11121-V1700	Gasket	5		Oljetrågspackning			60€
+11140-H9500	Gage	1	B310	Oljesticka		Philipson kartong 1	
+11220-01A01	Insulator Engine Mounting LH	3	N12, B11, M10	Motorfäste		Kartong Pågen	45$
+11252-50A04	Support Engine Mounting RH	1	B12, N13  	Kraftig Plåt		Kartong Pågen	30$
+11253-02A01	Bracket Engine Mounting Frame LH	1	B11, N12	Kraftig Plåt		Kartong Pågen	OOP
+11333-D4200	Brkt Assy-Buffe	1	T12,	Kraftig Plåt	CA18 motorfäste	Kartong Pågen	
+11710-U0501	Bracket  	1	610	Fäste Generator		Philipson kartong 2	
+11716-VK500	Bolt	1					
+11720-P8000	Fan Belt	1	S130			Till Hayder	
+11720-V0704	Fan Belt	4					
+11916-00QAR	Bolt	1					
+11920-28L00	Fan Belt	1	C31				
+12033-A3501	Piston Ring	1	910	L18?		Kartong Leksandsbröd	
+12033-H6201	Piston Ring	4	B210			Philipson kartong 2	
+12207-MA70A	Bearing Set	1					
+12279-01M00	Seal Oil CR/SFT	1					
+12279-7C600	Seal Oil Crankshaft	1					
+12279-BX00A	Seal Oil Crankshaft	1					
+12299-4M500	Shim	2					
+12309-EN20A	Bolt Pulley	1					
+12313-53F00	Styrpinne	1					
+12331-03E00	Plate Assy  	1	T12,U11, M11	CA20 Aut			
+13021-H1000	Gear Crank shaft	1					
+13021-T6200	Gear	2	720,D21,E23 mm	sprocket crankshaft SD23		Philipson kartong 2	70$
+13024-18001	Sprocket camshaft	1	B310				$47.55
+13024-H8500	Sprocket	1	B310			Kartong Bluebird MTR478	
+13042-16V00	Seal oil Camshaft	3	T12,	CA18D			
+13042-A8601	Seal Oil Crankshaft	5					
+13050-AD20A	Gasket Thermost	1					
+13050-AD20B	Gask Water Pipe	1					
+13070-18001	Chain Tenssioner	1					
+13085-70J11	Guide Chain	1					
+13170-01M00	Pulley	1				Philipson kartong 2	
+13170-01M02	Pulley – Jackshaft	1				Philipson kartong 2	
+13201-A3500	Valve intake	1		L16   			
+13213-AD260	Ventilstyrning	3					
+13268-00QAB	rubber Rocker	3					
+13270-01B01	Gasket	2	K10				
+13270-D4200	Gasket Rocker	2		Passar vita Bluebirden?			
+13270-D4210	Gasket Rocker Cvr	1					
+13270-V0600	Gasket	1	720	SD20 22 23 25			
+13510-1F700	Seal Oil Crankshaft	1					
+13510-2F200	Seal Oil Crankshaft	1					
+13510-6N200	Packbox	1					
+13510-70J00	Seal oil CR/SFT	1					
+13520-15G02	Gasket Front Cover	1					
+13520-BN80A	Gasket	1					
+13521-15G01	Gasket Front Cover	1					
+14005-18001	Gasket	1					
+14031-00Q0B	Screw	2					
+14032-AX610	Packing	1					
+14032-AX610	Packing	1					
+14033-AX600	Packning	1					
+14035-19B25	Gasket Manifold	1					
+14035-9F610	Gasket Manifold	1					
+14035-AD200	Gasket Manifold	1					
+14035-D5720	Gasket Manifold	1					
+14035-EB300	Gasket Manifold	1					
+14035-H7200	Packning	1			tveksamt skick		
+14035-H8901	Gasket	3					
+14035-Y1401	Gasket, Manifold	1	720,D21,E23 mm	flertal motorer			15$
+14036-01B26	Gasket EXH Ma	2	K10				
+14036-01E00	Packning	1	U11,T12	CA20E Exhaust manifold			
+14036-77A00	Gasket	1					
+14036-BC000	Gasket eXH  	1					
+14037-V5000	GSKT EXH Manif	1	Z31, D21	16$			
+14320-54W00	Dush Pot	1	720			Kartong Leksandsbröd	
+14719-5X00B	Gasket	1					
+14719-WD000	Packning	3					
+14722-5X00B	EGR Tube Gasket	1					
+14722-AD200	Gaket EGR Tube	1					
+14920-M5510	A-Valve_Control	1	F10			Kartong Leksandsbröd	
+15037-VK500	Gasket	1					
+15066-EN200	O Ring	1					
+15189-69F00	Gasket Eye Bolt	2					
+15208-00QAC	Oljefilter	1					
+15208-W1116	OIL FILTER	2		L+G SERIES		KARTONG 3725	
+15239-VK500	Gasket	1					
+15255-1P103	Cap mOil Filler	1					
+16011-D1462	Chamber	1	T11	Topp på förgasare		Philipson kartong 2	
+16174-15800	Insulator	1					
+16175-EB300	Gasket Throttle	1					
+16400-00QAA	Fuel Filter	1					
+16400-E3000	STRAINER	3		BRÄNSLEFILTER		KARTONG 3725	
+16500-09W17	Assy-Air Cleaner	3		Svart, SD23, SD25			
+16500-13W71		1					
+16510-01M00	Vacuum Motor	1		På luftfilterburk		Kartong Bluebird MTR478	OOP
+16546-15M00	Air Element	1	B11 N12 Z31				
+16546-22000	Assy element	1					
+16546-P6910	Assy element	1	S130		78.08-81.09		
+16546-P8260	Assy element	2	S130		81.10->		
+16600-63G21	Nozzle Holder	1					
+16600-V0702	Nozzle	1	910, C31			Kartong Leksandsbröd	
+16613-43G02		2					
+16613-43G06		1					
+16613-43G07	Shim	1					
+16613-43G08		1					
+16613-43G09		2					
+16625-43G00	Gasket	10					
+16625-43G02	Gasket	4					
+16640-Y8402	Feed Pump	1		Diesel		Kartong Leksandsbröd	
+16651-G2400	Gasket	3					
+16739-AW400	Bricka	2					
+16781-AD205	O Ring	1					
+16781-AD20A	O Ring	1					
+16781-AD210	O Ring	1					
+17342-90J00	Seal O Ring	1					
+17521-M6600	Cap Filler	2					
+18410-01W00	Choke Cable	1	720			Philipson kartong 1	
+18410-M5800	Cable	1	F10	Chokewire			
+18410-U1700	Choke Cable	1	610			Philipson kartong 1	
+20230-M7003		2	N10	Avgasupphängning metall + gummi		Kartong Träolja	
+20606-8H30A	Bolt	2					
+20621-H5000	Insulator	1	B210			Kartong Träolja	
+20623-U0101	Rubber	3	610	Upphängning avgas?		Kartong Träolja	
+20630-N8200		3	910, C31	Avgasupphängning oval		Kartong Träolja	
+20630-V0100		24		Avgasupphängning oval		Kartong Träolja	
+20636-M6000	Insulator	1	F10	Metall och gummikudde		Philipson kartong 1	
+20650-01B01	Insulator	17	K10,T12	Gummi avgasupphängning		Kartong Träolja	
+20662-H8500		1	B310	typ stötfångarfäste		Philipson kartong 1	
+20682-V0100	Stopper, Rubber	2	E23,	Gummi avgasupphängning		Kartong Träolja	
+20691-58E01	Gasket EXH  	1	S13, S14	3$			
+20692-65J00	Packning	2					
+20711-A0800	Packning främre avgas	1					
+20822-01M00	Cap Conv	1					
+21010-21026	Water Pump	1	720				
+21010-21088	Water Pump	1		L16 L18			
+21014-19B01	Gasket W pump	1	K10	Oop (200€?)			
+21014-AD20A	Gasket W pump	1					
+21049-31U00	O Ring	1					
+21051-E3202	Pulley, fan water pump	1	C31	m flera?		Kartong Leksandsbröd	
+21066-T9307	Belt Oil Pump	5					
+21200-40F00	Thermostat	1					
+21200-42L01	Thermostat	1					
+21200-6N210	Thermostat	1					
+21200-90J00	Thermostat	1					
+21200-93J00	Thermostat	1					
+21200-99B13	Thermostat	1					
+21200-G3100	Thermostat	1					
+21200-P7906	Thermostat 88C	1					
+21200-V0105	Thermostat 88C	2	E23,	H20 88C	21200-V0205	Kartong Bluebird MTR489	
+21200-V5015	Thermostat 75C	1					
+21200-W3305	Thermostat 88C	2	T12,	LD20			
+21304-BN301	Packning	1					
+21312-17M00	Ring Rubber Oil cooler	1	T12,	CA18T, CA20S, CA20E, CA18D			
+21331-AD20A	Gasket	1					
+21334-30F00	Ring Rubber Oil	1	T12,	CA18T  	02/88-		
+21430-U0100	Radiator cap	1	E23,	H20,	21430-89900		
+21503-M0207	Hose	1	E10	Vattenslang		Philipson kartong 1	
+21503-P0705	Hose	1	230	Kylarslang		Philipson kartong 1	
+21503-P7100	Hose	1	S130	Kylarslang		Philipson kartong 1	
+21503-R8100	Hose	1	E23,	Kylarslang, nedre SD22, 23		Philipson kartong 1	
+21503-W2101	Hose	1	910	Kylarslang		Philipson kartong 1	
+21506-H1101	Hose	1	B110	Värmeslang med koppling			
+21607-29113	FAN Belt	1				ALCROLÅDAN	
+22100-11W11	Distributor	1	720,91	fördelare, enkel brytarspets		Kartong Bluebird MTR496	
+22100-W5700	Distributor	1					
+22102-01M11	Condenser	1					
+22102-71311	Condenser	4	E23,	Kondensator 0,22uF H20,	22102-71312 22102-R3010	Kartong Träolja	
+22102-U9606	Condenser	1					
+22108-N6000	Shaft	1				Kartong Bluebird MTR510	
+22120-H8900	Switch	1	B310			Kartong Bluebird MTR480	
+22131-4M505	Seal O Ring	1					
+22136-Q1700	Plate Assy BRE	1	C230			Kartong Träolja	
+22157-23G15 Rotor		3					
+22157-27M15	ROTOR HEAD	1				KARTONG 3725	
+22162-E3001	Distributor cap	1					
+22162-U6001	Dist cap	1					
+22180-21000	Tänd inst plåt fördelare	1		+1beg			
+22365-00QAF	Sensor Temp	1	167$	användtillcarisman			
+22401-00QAA	Spark Plug Champ RC8PYCB	5					
+22401-1P116	Spark Plug NGK PFR6G	5					
+22401-20J06	Spark Plug NGK BKR6E	1					
+22401-2J206	Spark Plug NGK BKR6EY	5					
+22401-30R15	Spark Plug NGK ZFR5E	2					
+22401-8H315	Spark Plug NGK LFR5AP	7					
+22401-AX015	Spark Plug Champ REC10PYC4	2					
+22401-BC01B	Spark Plug NGK LFR5E	5					
+22401-V1415	Spark Plug NGK BPR5ES	1					
+22440-73C10	Cable set	1	P10				
+22453-89J10	Cable assy high	1	P10				
+22630-44B20	Sensor Temp	1					
+23100-U0105	Alternator	1	610			vid sidan av	170€
+23133-H0301	Holder	1		Kol till generator		Kartong Bluebird MTR515	
+23133-P0100	Carbon Brush	3					
+23133-U0101	Carbon Brush	1					
+23135-Q4600	ASSY BRUSH	1	C230	TILL GENERATOR		ALCROLÅDAN	
+23135-Q4601	ASSY BRUSH	2	C230	TILL GENERATOR		ALCROLÅDAN	
+23135-W7110	Kol	1	A10,T12				
+23142-04P01	Brush Assy	2	Z31, U11	10$			
+23142-W1700	Brush Assy	1					
+23230-W7101	Diode	1	A10	Diodplatta			
+23230-W7101	Diode	3	A10	TILL GENERATOR		ALCROLÅDAN	
+23300-04E01	Starter motor	1	T12	Nissan Bluebird 2.0			Ca 200€
+23312-11M00	Starter pinion	1	N13	CD17		Kartong Bluebird MTR507	
+23312-37504	Starter pinion	1				Kartong Bluebird MTR505	
+23312-E3000	Pinion	1					
+23312-U6000	Starter pinion	1	610			Kartong Bluebird MTR506	
+23343-21006	Sub switch	1			beg		
+23343-N3300	Starter solenoid	2					
+23379-M0100	Kol	1					
+23380-21000	Carbon Brush	1					
+23380-M0100	Carbon Brush	1	T12	CA16S,CA20S			
+23380-M0101	Brush  	1	T12	CA16S,CA20S			
+23465-M4900	Kol	11	F10,T12	CA20,Kol för startmotor?		Kartong Träolja	
+23500-H9510	VOLTAGE REGULATOR	1	B310			ALCROLÅDAN	
+23500-Q4510	VOLTAGE REGULATOR  	1	C230			ALCROLÅDAN	
+23500-U0601	Voltage regulator	1					
+23731-4M525	Sensor A-Crank	4					
+24021-V5005	Fusible Link	1	T12,				
+24022-01A00	fusible Link	1					
+24022-01G00	Fusible Link	1	D21	13$			
+24022-01G00	Cable	1					
+24022-04M00	Fusible Link	1	N12	Sladd		Kartong Träolja	
+24022-18M20		1					
+24022-D3101		1					
+24022-H8810	Cable	2					
+24022-H8815	Kabel	3	B310	19$			
+24022-V0100		2					
+24022-W1702	Cable	2	910				
+24161-28501	Kabel	2					
+24210-D0110		10					
+24220-H8502	Clip Wiring Harness	9	B310, E23	clips med buntband		Kartong Träolja	
+24220-W0510		16	810	Clips, plast		Kartong Träolja	
+24281-C9910	Diode	1	T12,			Kartong Träolja	
+24313-15R02	Cover Fuse	1				Kartong Bluebird MTR514	
+24328-W2700	Cable	1	910	Tunn rund och flat kontakt		Kartong Träolja	
+24336-82F02		1					
+24336-82F25	Resistor	1					
+24370-79910	Fusible Link	2					
+24370-89900	Fusible Link	1	T12,				
+24420-M7800	Battery Clamp	1	N10	Fäste för batteri		Kartong Träolja	
+24420-U2000	Frame Battery	1	610			vid sidan av	
+24428-04A10	Tray	1		Svart Plast , tunn		Philipson kartong 1	
+24813-02M00	Cover	1		Genomskinlig plast			66€
+24819-M3260	Amplifier	1	F10			b	
+24860-2F100	Lampa	4					
+24860-35F00	Lampa	4					
+24860-4F102	Socket & Bulb	2					
+24860-4F103	Lampa	2					
+24860-4F112	Lampa	4					
+24860-70J10	Lampa	2					
+25038-09B01	Buzzer	1	K10			Kartong Träolja	
+25050-18W11	Cable	1		Typ Hastighetsmätarkabel		Philipson kartong 1	
+25050-18W12	Cable	1	720	Typ Hastighetsmätarkabel		Philipson kartong 1	
+25050-55G00	Matarkabel	2					
+25050-W4011	Cable	1	910	Typ Hastighetsmätarkabel		Philipson kartong 1	
+25060-05B01	Meter Gauge	1	K10	Bränslenivågivare i tank			90$
+25060-H5000	Meter Gauge	1	B210	Bränslenivågivare i tank		Kartong Bluebird MTR483	
+25060-H6600	Meter Gauge	1	B210	Bränslenivågivare i tank		Kartong Bluebird MTR482	
+25080-89900	Water temp sending unit	2					
+25160-U2000	Switch	1					
+25169-62C01	Bulb	1					
+25169-62C02	Bulb	1					
+25200-D4000	Switch	1	B12, N13, T12	Trunk room lamp		Kartong Träolja	
+25230-89905	Relay	2		Relä metall 6-polig		Kartong Bluebird MTR497	
+25230-89926	Relay	2					
+25230-89978	Relay	1		Litet relä 4 kontakter		Kartong Träolja	
+25230-C9907	Relay ignition	1	E23,	Flera platser flera modeller			
+25230-C9925	Relay	1					
+25230-C9980	Relay	1					
+25230-H2501	Relay	1+1		1 beg			
+25230-M0200	Relay	1		lätt beg			
+25235-N7100	Heater Relay	1				Kartong Bluebird MTR491	
+25235-P0110	Relay, auto choke	2	230			Kartong Leksandsbröd	
+25239-20R00	Cover Relay-NO1	2	M10			Kartong Bluebird MTR480	
+25240-10g00	Switch	1	Terrano D21	Oljetrycksgivare		Kartong Träolja	
+25240-89960	SW Oil Pressure	1					
+25260-03E00	Switch	1	B12,T12,U11	Knapp för bakre torkare		Kartong Träolja	
+25290-21L10	Switch	1	C31	Knapp, varningsblinker		Kartong Träolja	
+25320-75A00	SWStop Lamp	1	T12,				
+25320-75A0E	SWStop Lamp	1					
+25331-13E00	Lighter	1				Kartong Bluebird MTR508	
+25350-W1001	Switch	1	910			Kartong Bluebird MTR517	
+25401-BU861	SW Auto Power W	1					
+25506-W2700	Sensor	1	910	Svart plast 3 + 4 poler		Kartong Bluebird MTR481	
+25530-N8410	Switch	1		R30 Skyline?		Kartong Bluebird MTR478	
+25530-W1000	Switch	1	910	Omkopplare strålkastarspolning		Kartong Bluebird MTR509	
+25540-K2600	Switch	1	710	Torkarspak		Kartong Leksandsbröd	
+25540-U8801	Switch	1	810	Blinkerspak, torkarspak		Även 280zx 79-80? A10?	66$
+25730-13E00	Unit  	1		3-polig kontakt, typ relä		Kartong Bluebird MTR486	
+25820-W2100	Clock Assy	2	910	Klocka, Digital		Kartong Leksandsbröd	
+25820-W2100	Clock Assy	1	910	Klocka, Digital		Kartong Bluebird MTR481	
+26010-13W10	Head Lamp	1	720	Komplett 2 fyrkantiga med platta bakom			
+26016-M3815	Ring	1	F10	Metallring stor		Philipson kartong 1	
+26023-H1010	Nut, Adjusting screw	7	B110	Fyrkantiga plastbitar		Kartong Träolja	
+26030-15E00	Printed	1		Kretskort instrumentering			
+26056-6F700	Actuator Head Lamp	1					
+26120-U1502	Lamp FR comb	1	610			vid sidan av	
+26121-U1500	Lens	1	610	Blinkers, position		Kartong Bluebird MTR494	
+26121-W5000	Lens	3	A10	Blinkers/positionglas vänster		vid sidan av	
+26125-U1502	Lamp FR comb	1	610	Blinkers, position		Kartong Bluebird MTR498	
+26126-07P00	Lens	1	Z32	Blinker, Position		Kartong Leksandsbröd	
+26126-U1500	Lens	1	610	Blinkers/positionglas		Philipson kartong 2	
+26136-D4001	Glas Blinkers	1	T12,	blinkersglas fram vänster			
+26140-01B77	Clearance	2		Blinkers			
+26145-16A00	Lamp Assy	2		Vit blinker el position?		Kartong Bluebird MTR504	
+26160-01A00	Side Lamp	1				Kartong Bluebird MTR516	
+26160-03W10	Side Lamp	1					
+26160-A8600	SIDE FLASH LAMP	1	510	BLINKERS, SKÄRM		KARTONG 3725	
+26160-H9000	Side Lamp	1	B310	Blinkers på skärm		Kartong Bluebird MTR518	
+26161-K1700	Lens	7	710				
+26164-08W05	Sub Assy	2	720	Blinkersglas		Kartong Bluebird MTR503	
+26165-H8960	Sidelamp	1	B310	Blinker, Facelift		Kartong Leksandsbröd	
+26165-N3001	Side Lamp	1	S30	Även andra modeller?		Kartong Bluebird MTR479	
+26165-U5900	Side Lamp	1	610	Blinkers, facelift		Kartong Leksandsbröd	
+26168-01R00	Packing Lens LH	1	M10			Kartong Träolja	
+26171-21G00	Lens	1	D21				
+26241-3S200	Socket Assy	1					
+26261-89906	Bulb	5	E23,	Lampor små, instrument		Kartong Träolja	
+26261-89947	Lampa	1					
+26262-01P40	Socket & Bulb	5					
+26282-89908	Bulb	1					
+26296-89902	Bulb	1		Koito till framlyse		Kartong Bluebird MTR511	
+26381-B8600		1	620	Plast över torkararm?		Kartong Träolja	
+26381-M7000		1	N10	Plast över torkararm?		Kartong Träolja	
+26381-M7010		3	N10	Plast över torkararm?		Kartong Träolja	
+26410-H8500	Lamp, interior	1	B310	Innerbelysning, tak		Kartong Leksandsbröd	
+26510-26L00	Licence Lamp	2	C31			Kartong Leksandsbröd	
+26510-AU300	Lamp Assy License	1					
+26510-M1066		1	E10	Nummerskyltslyse		Kartong Träolja	
+26521-14R00	Baklyse	1		Prarie?		Kartong Bluebird MTR478	
+26526-P8600	Lamp  	1	S130	Bakljus  		Till Hayder	Minst 500€
+26550-H6800	Lamp  	1	B210	Bakljus höger kombi			
+26550-M5500	Lamp  	1	F10	Bakljus coupe			
+26551-H6100	Lens Body	1	B210	Bakljus höger sedan			
+26551-H6600	Lens	1	B210	Bakljusglas kombi höger			
+26555-08W06	Comb Lamp	1	720	Bakljus vänster			Minst 100€
+26556-23A00	Lens Body	1		Bakljus vänster			
+26556-D1200	Rim Lens	2	T11	Bakljusglas vänster			
+26560-H5500	Reflector	1	B210	Röd för baklyse		Philipson kartong 2	
+26560-H9321	Lamp RR Comb	1	B310	Bakljus höger kombi			
+26565-H9321	Lamp RL comb	1	B310	Bakljus vänster kombi utan kartong			
+26585-D1100	Lamp Assy	1	T11	Röd baklampa		Kartong Leksandsbröd	
+26701-89950	Unit Assy Sealed Beam	3		IKI fyrkantig		Kartong Bluebird MTR483	
+26701-89950	Unit Assy Sealed Beam	1				Philipson kartong 2	
+26702-89960		1		Strålkastarspolning		Kartong Träolja	
+26745-01L26	Moulding	1	C31			Philipson kartong 1	
+27117-U0100	Connector	1	610	För vatten till värme		Kartong Leksandsbröd	
+27150-3S810	Resistance Elec	1					
+27150-8H300	Resistance Elec	1					
+27150-R8011	Resistance	1		Misstänkt trasig		Kartong Bluebird MTR487	
+27220-M3800	Duct	1	F10	Varmluftskanal plast		Philipson kartong 1	
+27480-M4900	Tank Assy Ws	1	F10			vid sidan av	
+27480-M7970	Tank  	1	N10	Vindrutespolare			
+27522-M3900	Motor	1	F10	Elmotor, spolare?		Kartong Leksandsbröd	
+27522-M3900	Motor	2	F10			ALCROLÅDAN	
+27524-H6105	Wire	1	B210	Till Hastighetsmätare?		Philipson kartong 1	
+27524-H6107	Wire	1	B210	Till Hastighetsmätare?		Philipson kartong 1	
+27524-H6107	Wire	1	B210	Till Hastighetsmätare?			
+27525-M1000	Link	2	E10	Till Hastighetsmätare?		1 I ALCROLÅDAN	
+27525-M1001	Wire	2	E10	Till Hastighetsmätare?		1 I ALCROLÅDAN	
+27527-89900	Blade	2		Torkarblad strålkastare		Kartong Träolja	
+27527-89901	Blade	2		Till strålkastartorkare?		Kartong Träolja	
+27538-M3901		1	F10	T-koppling spolarslang		Kartong Träolja	
+27538-W0500		1	810	Strålkastarspolning		Kartong Träolja	
+27538-W5600		1	A10	Strålkastarspolning munstycke		vid sidan av	
+27539-U8910	Nozzle	1	810	Strålkastarspolning, munstycke		Kartong Leksandsbröd	
+27545-50Y00		3					
+27545-WA400	Lamp Assy Heater	2					
+27550-4M420	Clamp Control	2					
+27550-51E00		1					
+27550-BM500	Clip  	1					
+27560-D0100		1	T11	Vred Svart plast		Kartong Träolja	
+27570-04B00	Finisher	1		Grå plast runt värmereglage mm		Kartong Bluebird MTR482	
+27626-32Y10	Lampa	1					
+27660-13R00	Switch	1		Rear Heater		Kartong Bluebird MTR499	
+27960-U9600	Set Antenna	2	810				
+27964-00QAE	Antenn	1					
+27964-M7901	Kit Antenna	2	N10				
+28205-01A01	Set Antenna	2					
+28216-3S100	Base Antenna	1					
+28236-01G01	Bracket Antenna	2	Terrano D21			Kartong Träolja	
+28241-01M00	Feeder	5		Antennkabel		Philipson kartong 1	
+28241-D0100	Antenna	3	T11	Antennkabel		Philipson kartong 1	
+28268-AV600	Switch Assy REM	1					
+28465-15A00	Timer – Fan Motor	1				Kartong Bluebird MTR500	
+28631-04B00	Bag washer	1	K10				
+28641-0X000	Nozzle	1					
+28641-BU300	Nozzle Heater	1					
+28642-9F911	Nozzle	1					
+28652-22G00	Arm assy Head	1					
+28661-26L00	Motor	1	C31	Till strålkastartorkare?		ALCROLÅDAN	
+28666-26L00	Motor	1	C31	Till strålkastartorkare?		ALCROLÅDAN	
+28681-26L00	Arm	1	C31	TILL STRålkastartorkare?		ALCROLÅDAN	
+28686-26L00	Arm	1	C31	TORKARARM STRÅLKASTARE		ALCROLÅDAN	62€
+28690-26L00	WIPER BLADE	2	C31	Till strålkastartorkare?		ALCROLÅDAN	
+28698-26L01	Cover	1	C31	Plast  	Svart	Kartong Träolja	
+28755-M8300		1	N10	Torkararm metall silver		Kartong Bluebird MTR478	
+28828-65F00	Seal Ball ret	1					
+28851-V0100	Retainer	2	720,B11,U11,T12 m fl	3$	Till torkararm		
+28880-67A05	Arm	1		Torkararm svart		Philipson kartong 2	
+28880-W2121	Wiperarm	1	910			Kartong Leksandsbröd	
+28890-M7300	AMP	1	N10	AMP W/S Wiper		Kartong Träolja	
+28910-16A05	Window Washer	1		3 pumpar			
+28910-26L00	Tank  	1	C31	Tank Spolarvätska			145€
+28910-W3700	Window Washer	1	910			vid sidan av	
+28910-W3700	Window Washer	1	910			vid sidan av	
+28913-5F001	Lock Spolarvät	1					
+28920-9F900	Pump Assy	1					
+28920-P6735	Motor	1	S130	Elmotor, spolare?		Kartong Leksandsbröd	
+28935-55A10	Hose	1		Påfyllningsrör spolarvätska		Kartong Bluebird MTR493	
+28945-6F600	Clip  	1					
+29410-L4008	FUSE	1		FORKLIFT		ALCROLÅDAN	
+30100-02C05	Clutch Disc	2		Till L16, L18, LD20			125€
+30100-28L60	Clutch Disc	1	C31	Till L24?		Spar denna	140€
+30100-M7001	CLUTCH Disc	1	N10			ALCROLÅDAN	
+30100-R8210	Clutch Disc	4	E23,720	Till F22, SD23			70€
+30100-U5100	Clutch Disc	2		Till L18, L20B, G18		Spar denna	125€
+30502-14601	Clutch release bearing	10					
+30610-N6027	Clutch master piston kit	1	610,710,P230				
+30611-10625	Piston Kit Clutch Master	1					
+30611-10626	Clutch master piston kit	1					Använt
+30611-H5826	clutch master piston kit	1	810				
+30611-M1025	PISTON KIT C/M CYL	1		KOPPLING HUV CYL		KARTONG 3725	
+30611-N0125	PISTON KIT C/M CYL	4	610, 710, C130, C230,E23	KOPPLING HUV CYL 5/8		KARTONG 3725	
+30622-28525	Release Kit	2	C31	Diesel			
+31397-95X25	Gasket & Seal Kit	1					
+31398-01X02	Guard Oil Pan	1		Plåt  		Kartong Pågen	
+32113-03E00	Seal Oil Input	1	T12,	på växellåda			
+32223-24900	Bearing WN	1					
+32245-25500	Gear	1				Philipson kartong 2	
+322545-E9525	Gear	1		Kugghjul växellåda  		Kartong Leksandsbröd	
+32258-25500	Hub	2		med kugg		Kartong Leksandsbröd	
+32310-E9551	Gear	1		Kugghjul växellåda 2st		Kartong Leksandsbröd	
+32319-N4870	Bearing Counter	1					
+32702-33G18	Pinion Speedo	1	D21	18$			
+32702-83M14	Pinion Spmeter	1	T12			Kartong Leksandsbröd	
+32702-83M18	Pinion Assy, spmeter	2	K10, N12			Kartong Leksandsbröd	
+32805-M8001	Fork Shift	1	N10			Kartong Leksandsbröd	
+32841-25500	Lever Control	1		Till växelspak?	Krom	Kartong Leksandsbröd	
+32850-N9002	Guide	1		Fäste för växelspak		Kartong Bluebird MTR478	
+34451-R8400	Rod Shift	1	E23	Kulled i båda ändar, liten		Philipson kartong 1	
+36406-76500		9		Clips metall		Kartong Träolja	
+36530-01A01	Brake cable	1					
+36530-01L00	Rod  RH	1	C31			Kartong Pågen	9$
+36530-08W00	Cable	1	720	Handbromswire		Philipson kartong 1	
+36531-K0400	Cable Assy Brake	1	710	2 kablar		Philipson kartong 1	
+38165-8S100	Spacer DR Pin Bearing	1					
+38322-41L0A	Breather	1	E23	Rear axle case			
+38342-M8001	Seal Oil Differ	2	N10				
+39101-13A10	SFT Assy Drive	1	N12, B11  	Drivaxel			729$
+39241-13A25	Combination Kit	1		Damask med fett för drivknut		Philipson kartong 2	
+39740-W1225	Repair Kit	1	910	Damask med fett för drivknut		Philipson kartong 2	
+40088-M0225	Dust Cover	1	E10	Med fett			
+40210-85000	Bearing  	2	E23,T12	Rear axle , outer	38440-25660		
+40210-H1000	Bearing WT	2					
+40215-H1000	Bearing WN	1					
+40228-31G00	Seal Dust	1					
+40262-2Y000	Nut	1					
+40262-50W00	O Ring Free Run	1	720	2$			
+40267-34G00	Brake Set	1					
+40315-01L16	Ornament	4	C31	TILL ALU FÄLG		ALCROLÅDAN, SPAR	
+40315-36A05	Navkåpa	1					
+40342-06B00	Cap	4					
+40342-11E00	Ornament Road	1		Metall Nissan		Kartong Bluebird MTR513	
+40342-D1100	Ornament	1	T11	Navkåpa liten, repig		Kartong Leksandsbröd	
+40342-D1600	Ornament	4	T11	navkåpa liten Datsun		Kartong Bluebird MTR512	
+40343-56A10	Centrumkåpa	4					
+40343-P6500	Cap	1	S130	Navkåpa liten	Krom	Kartong Leksandsbröd	
+40343-W1500	Ornament	2	910	Navkåpa liten, lättmetallfälg?		Kartong Leksandsbröd	
+40343-W5710	CENTRE CAP	4	A10			ALCROLÅDAN	
+41060-01W26	Brake pad kit	2					
+41060-M0801	BRAKE PADS	1	E10			ALCROLÅDAN	
+41060-M0827	Brake pad kit	3					
+41060-U8925	Pad Kit	3					
+41120-22025	Kit Seal	1					
+41120-51S26	Seal Kit Disc Brake	1					
+41128-AW70A	Bleeder Screw	1					
+41151.03A01	Baffle Assy – FR	1	B11, N12	Skyddsplåt bakom bromsskiva		Kartong Pågen	OOP
+43202-08M91	Drum	1		Bromstrumma med hjulbult och nav		Philipson kartong 2	
+43206-18000	Brake Drum	1		Bromstrumma svart			
+43210-21000	Bearing  	9					
+43210-50A00	BRG rr Wheel	1	B12 N13				$56,92
+43210-C9300	A BRG RR Wheel	1					
+43210-D0100	A BRG RR Wheel	2	T12,	Bakaxel inre			
+43215-A0100	BRG rr Wheel	1			saknas delar?		
+43232-9C500	Seal Grease Rear	1					
+43252-M7001	Seal Oil Rear	1					
+43270-00Q0A	Screw	3					
+44100-5F625	Cup Kit Brake W	4					
+44100-H0525	WHEELCYL KIT	4					
+44100-H3300	Wheel Cylinder	1	B110	Tokico 11/16 tum		vid sidan av	
+44100-u2025	WHEELCYL KIT	1					
+44100-U4600	Wheel cyl	1					
+44120-N9525	Seal Kit Disc Brake Rear	1				Philipson kartong 2	
+44230-N0800	Brake Line	2					
+46010-U0525	Piston Kit Brake Master	1	B210,610,710				
+46011-H3325	Piston Kit Brake Master	1	B110				
+46011-H5125	piston Kit Brake Master	1	B210, F10				
+46011-M1125	Tandem master kit	2					
+46011-U7725	Piston Kit Brake Master	1					$63.22
+46012-H3125	Tandem master kit	1					
+46202-89940	Brake Hose	1					
+46211-09W01	Hose Assy Brake	2	720				
+46290-H9100	Tube assy  brake	1					
+48237-W1001	SPRING	1	910			ALCROLÅDAN	
+48368-21L00	Bolt	1	C31	2 bultar i par med metallplatta mellan		Kartong Pågen	
+48400-D3200	St-Wheel	1	T11	Grått			
+48470-13E10	Cover	1		Rattkåpa grå		Philipson kartong 2	
+48470-21L01	Cover	1	C31	Grå runt rattstång			
+48641-U0100		1					
+48700-11P26	STG	1	Z31	Tändningslås m nyckel		vid sidan av	
+48702-E66??	Clamp	1		För rattstång		Philipson kartong 2	
+54302-05S00		1		Fjäderben fram			
+54303-05S00		1		Fjäderben fram			
+54303-W3426	Shock abs	1	910				
+54618-50Y00	Rod-Stabilizer	1					
+55269-0M00A	Nut	2					
+56110-D1125	Shock-Absorber	2	T11				84$
+56110-H8825	Shock-Absorber	2	B310				
+56110-M1025	Shock-Absorber	2	E10				
+56210-U7629	Shock Abs	1	810				
+62022-01B20	Bumper Ass	1	K10				215$
+62022-01B20	STÖTFÅNGARE	1	K10	PLAST FRAM			142€
+62022-01E00	STÖTFÅNGARE	1	U11	PLAST FRAM			259€
+62022-01M70	STÖTFÅNGARE	1	N12	PLAST FRAM			
+62030-Q0101		1	C230	Plåt typ fram nedanför stötfångare			
+62086-07L00		1	C31	Kromad plastlist böjd Höger skärm?		Philipson kartong 1	
+62210-M3001	Stay	3	F10	Plåt på ramben med ögla		Kartong Pågen	
+62210-M3001	Stay	1					
+62256-9U10A	Finisher Front	1					
+62301-P4800	Grille	1	230	220C Diesel kromad		reserverad	
+62302-H1003	Grille	1	B110	Sedan			
+62310-01E38		1	U11	U11 Bluebird? Grill med 4 fyrkantiga lysen			
+62310-04B60	Grille	1	K10	02.85-11.88			100€
+62310-H9102	Grille	1	B310				200€
+62310-Q0100	Grille	1	C230	Tidig med runda lysen			
+62392-H9100	Ornament	1	B310	Kromat D till grill		Kartong Leksandsbröd	
+62408-M3905	Grille	1	F10	Runt strålkastare			
+62409-M3905	Grille	1	F10	Runt strålkastare			
+62500-H8504		1	B310	Plåt  			
+62500-H8504	Front	1	B310	Hel Front			
+62500-W7520	Front	1	A10	Hel Front			
+62560-01W01		1	720	Plåt  		Kartong Pågen	
+62561-01W01		1	720	Plåt  		Kartong Pågen	
+62561-H8500	Protector	1	B310	På stötfångare höger?			
+62612-M3830	Front Valance	1	F10	Nedre Frontplåt			115€
+62660-15M01	Apron, Front Panel	1	N12				70$
+62670-R9700	Front Spoiler	1	E23	Urvan			250€
+63100-U5130	Fender RH	2	610	Facelift små rostfläckar			
+63101-U7430	Fender LH	1	810				
+63130-01M01		1					
+63140-01M00	Brkt Assy	1					
+63813-M7000		1	N10	LH cover plast		Kartong Bluebird MTR485	
+63830-H7204	Protector	1					
+63852-D0100	Protector	1	T11				
+63872-01M20	Moulding	1					
+63873-02W00	Moulding	1	720				
+63875-04B10	Skärmlist	1	K10				
+63880-01G00	Protector- front fender RH	1	Pickup D21	plast			
+64101-M7000	Wheel Hause, Front LH	1	N10				440€
+64312-H5505	D EMBLEM GRILLE	1	B210	LIGHTLY USED		ALCROLÅDAN	
+65400-M6600	Hinge Hood R	1	N10			Kartong Pågen	
+65601-A2200	Lock hood	1					
+65710-H6100	Control Hood Latch	1	B210	HuvWire			
+65840-33M00	Insulator Hood	1					
+65890-AU300	Emblem Hood	1					
+66312-02A00		1		Plåt framför vindruta			68€
+66820-60R10	Clip	1					
+68100-02A60		1					
+68100-06M61	Inst Panel	1					
+68132-50A00	Reinforcment Instrument	1	B12, N13  	Plåt bakom handskfack		Kartong Pågen	19$
+68240-65M00	Cover	1	N13				
+68250-U5900	Cluster	1	610				
+68260-06M10	Lid	1		Mittdel instrumentpanel			
+68470-14E00		1		Svart plastlock			
+68510-01W02	Glove Box	1	720	handskfackslucka blå		Kartong Bluebird MTR478	
+68630-V6925	Glove Lock	1	Y30	Med Nyckel		Philipson kartong 2	
+68631-W6901	Cyl Lock	1	A10	Lås, Handskfack		Kartong Leksandsbröd	
+68750-13E00	Ventilator  	1				Kartong Bluebird MTR502	
+68750-D4602	Ventilator Assy	1	T12	Friskluftsinsläpp panel		Kartong Bluebird MTR495	
+68751-01R01	Ventilator Assy, Side LH	1	M10			Kartong Träolja	
+68760-15G00	Ventilator  	1	D21	Luftutsläpp panel		Kartong Leksandsbröd	
+68790-01A10		1	K10, B11	Friskluftsinsläpp panel		Philipson kartong 1	10$
+68800-01A02	Ash-Tray	1		askopp grå		Kartong Bluebird MTR501	
+68957-W1000		7	910	Plastclips		Kartong Träolja	
+68957-W1001	Plug	12	910	Plastclips		Kartong Träolja	
+72750-U8728	Moulding	1	810	flertal kromlister framruta			
+72761-01P10	Moulding	1	Z31	Svart metallist, tunn		Bland Lister och Paneler	
+72772-01R01	Moulding	1	M10	Gummilist		Philipson kartong 1	38$
+72790-01P00	Cover- Moul	1	Z31			Philipson kartong 1	
+72791-01P00	Cover Moul	1	Z31			Kartong Bluebird MTR484	
+73250-D4000	Bow Roof Nr2	1	T12	Plåt  			60$
+73262-D4030	Bow, Roof No3	1	T12	Förstärkning tak			62$
+73810-W2900	Insul-Roof	1	910				
+73854-01B00	Moulding	1	K10	Oop (8€)			
+73873-03A01	W/Strip	1				Philipson kartong 1	
+73884-N8401	Shim Back Door	1					
+73940-33M01	Assist	2		Handtag vid tak		Philipson kartong 1	
+74470.R8000	Stay – E/Cover	1	E23	Vinklad stålpinne till motorlucka			
+74902-33W12	Carpet	1					
+74906-R9510	Cover	1	E23	Rear wheel house mat engine cover			
+74960-W1000	Boot	1	910	Växelspaksdamask		vid sidan av	
+74964-01R07	Plate- R/End	1		Grå Plast  		Bland Lister och Paneler	
+75101-D0100		1	T11	Ramben			
+75110-01E30	Member, Side Front RH	1	U11	Ramben höger fram			380$
+75130-01R00	Plate, Closing Cross	1	M10				84$
+75131-01A00	Bracket, Under Cover	1	B11, N12	Plåt på ramben   			65$
+75890-01E00	COVER SPLASH	1					37$
+76331-M0201	Panel	1	E10	Tanklucka		Kartong Pågen	
+76435-50M00	Plate, Closing Sill	1	N13	Liten Plåt		Kartong Pågen	12$
+76451-67A00		1					
+76501-H1809	Door Pillar	1	B110	Dörrstolpe			
+76581-65A00		1		Plåt på ramben   		Kartong Pågen	
+76732-P7100		1	S130	Reservhjulsbalja		Till Hayder	250€
+76750-01M00	Wheel house, Rear inner RH	1	N12				120$
+76815-W2701	Moulding	1	910	har bulor			
+76836-01M10	Cover, End sill moulding	5	N12	Plastlock		Kartong Träolja	
+76842-D0800	Reinf	1	T11	Galvad Först plåt		Kartong Pågen	
+76855-H9062	Moulding	1	B310	Gummilist			
+76860-H5300	Handle	1	B210	Litet plast och krom		Kartong Bluebird MTR492	
+76871-11P01	Moulding	1	Z31				
+76886-03R02	Accent Stripe	1	M10	Prarie			
+76886-07R06	Accent Stripe	1	M10	Prarie 86			
+76915-D4002	CTR PLR LWR	1	T12	Plast över dörrpost		Bland Lister och Paneler	
+76921-27M13	Welt	1		Gråblå list, typ dörrlist		Philipson kartong 1	
+76923-12E03	Welt Body	1		Gråblå list, typ dörrlist		Philipson kartong 1	
+76923-D4001	Welt	1	T12	Gummilist, typ dörr		Philipson kartong 1	30$
+76924-D1207	Welt	1	T11	Gummilist, typ dörr, röd		Philipson kartong 1	
+76930-14E03	Finish	1	U11	Grå Plast Bluebird			215€
+76930-14E03	Finish	1		på fler platser?			
+76935-14E23	Finisher	1		Grå plast runt rattstång?			
+76951-01E01	Kicking	1	U11	Brun plast vid tröskel			37$
+78123-57A00	Cover, Rear Fender LH	1	B12	Plåt bakom bakfönster			100$
+78130-M7000		1	N10	Plåt runt bränslepåfyllningsrör		Bland Plåt	
+78802-M4805	Emblem	1	F10	2st 120A		Philipson kartong 2	
+78803-M4800	Emblem	1	F10	2st FII – Behöver limmas		Philipson kartong 2	
+78831-Y2400	Emblem	2	430	280C CEDRIC		SPAR TILL TAMAN	
+78856-D4611	Protector	1	T12	plast där stötfångare fästs		Philipson kartong 1	
+78861-00QAB	Grille Ventilat	1					
+78864-D0800	Washer	1	T11			Kartong Bluebird MTR479	
+78872-W1000	Moulding	1	910	Plastlist		Bland Lister och Paneler	
+78872-W3850	Moulding	1	910	List, plats		Kartong Bluebird MTR479	
+78874-01M20	Sidolist	1	Vanette				
+78874-01M71	Moulding	1					
+78894-M7902	Emblem	6	N10	Datsun Cherry		Philipson kartong 2	
+7951-01E10	Kicking	1					
+79750-W1000	Moulding	2	910	flertal kromlister (bakruta?)			
+79820-U1900	DATSUN EMBLEM	1	610			ALCROLÅDAN	
+79896-01M12	Mark	1	N12	1.5 GL		Kartong Bluebird MTR488	
+79911-01B10	Cover	1					
+79912-04B01	Cover	1		Brun Plast			
+79941-08M05	Finisher Rear	1					
+79991-01B10	Stopper Parcel	1	K10			Kartong Träolja	
+80207-R8000	Sash Front	1	E23	Plåt/gummi vänster framdörrr			
+80292-08M20	Sash	1		Plasttriangel vid spegel		Philipson kartong 1	
+80402-01L00	Hinge	3	C31			Kartong Träolja	
+80406-01B00	Pinne	2					
+80406-V5002	Pin Hinge	1					
+80430-01M00	A Arm Check Lin	1	N12, K10	Link Door Stopper		Kartong Träolja	
+80601-H1001		1	B110	Länk Dörrlås vänster		Kartong Träolja	
+80605-H6100	Handle	1	B210	Dörrhandtag yttre	Kromat	Kartong Leksandsbröd	
+80606-H8500	Handle	1	B310	Dörrhandtag yttre		Kartong Bluebird MTR490	
+80644-AX124	Escutcheon	1					
+80683-W1000	Escutcheon	1	910	Plast bakom inr dörröppnare	Grå	Kartong Träolja	
+80700-R8002	Regulator Door	1	E23	För fönster höger framdörr		Philipson kartong 1	
+80760-H8503	Handle	1	B310	Fönstervev	Brun	Kartong Träolja	
+80763-U7400	Washer Seating	1	810 mfl	1$			
+80818-9U000	Tape Front Door	1					
+80820-01W01	Weather Strip, front door RH	1	720	Plåt/gummi  			
+80827-01L02	W/Strip	1	C31				
+80834-28W00	Weather	1	720				
+80860-15G00	Screen	1	D21				
+80861-15G00	Seal   	2					
+80872-57M21	Moulding RH	1	N13	List, plast			100$
+80873-59M10	Moulding LH	1	N13	List, plast			80$
+80900-25G11	Fin Door	1	D21				
+80900-27M71	Finisher Door	1		Grå  			
+80900-R8016	Door Card	1	E23	Dörrsida brun höger framdörr			
+80901-M6600	Door Card	1	N10	Dörrsida Brun 2 dörrars			
+80910-28M02		1		Röd Vinylremsa		Philipson kartong 1	
+80940-01A77	Handle Pull	1	T11, B11	Grå Plast  			59$
+8212-05R60	Accent Stripe	2	K10	Nissan Micra GL		Philipson kartong 2	
+82820-D0100	Moulding- rear door RH	2	T11	Plåt/gummi  			
+82821-34A15	Moulding-rear door LH	1	B11	Plåt/gummi  			
+82826-01L01	Rubber	1	C31				
+82872-08L70	Moulding, door	1	C31	Gummi/krom			
+83410-21M60	Cover, window Hinge	1	N12			Kartong Träolja	
+83834-01R02	Seal Assy-RR SI	1		Gummilist			
+83835-01R02	Seal Assy-RR S	1		Gummilist			
+84443-N5800	Cable	1					
+84611-M3000	W/Strip	1	F10				
+84880-U7460	Moulding	1	810	kromlist bagage sedan			
+84896-D1103	Emblem	1	T11	1.8GL		Philipson kartong 2	
+84898-Q1500	Emblem	11	C230	2.4 PÅ BAKLUCKA		ALCROLÅDAN	
+84902-D3000	Carpet	1	T11	Matta bagage stanza sedan			
+84941-W1000	Finish-Trunk	1	910	Grå vinyl		Philipson kartong 1	
+84970-16E00	Board-T/Floor	1		Masonit till sidan av bagage			
+85022-01E00	STÖTFÅNGARE	2	U11	Plast  BAK			
+85022-M7725	Bumper	1	N10				
+85022-M7725	STÖTFÅNGARE	1	N10	PLAST BAK			179€
+85029-55G00	Rubber Bumper	1	D21	4$			
+85050-N8210	Bumper	1	S110	Plast  			86$
+85075-N8210	Moulding	1		kromad list på stötfångarhörn			
+85080-N8210	Filler	1	S110	Del stötfångare bak			76$
+85210-P9400	Stay- Bmpr	1	S130			Till Hayder	
+85211-N8200	Stay RR Bumper	1	S110			Kartong Pågen	70$
+85220-W0500	Stay	1	910	Plåt på ramben   		Kartong Pågen	
+85221-Q0101	Bumper	1	C230	Fäste stötfångare?		Kartong Bluebird MTR478	
+85230-N8200	Shim RR Bumper	1	S110	Liten Plåt,		Kartong Pågen	16$
+85520-34A00		1		Plåt  		Kartong Pågen	
+86840-09G10	SEAT Belt	1	WD21	LH GREY		ALCROLÅDAN	
+86840-10W02	Seat Belt Set	1	720	Blå, själva bälteslåset			
+86840-D4602	Belt Set	1	T12	fram höger		Philipson kartong 2	
+87405-10W22	Finisher	1	720	Blå Plastkåpa		Philipson kartong 1	
+87405-D4803	Dev-Cov	1					
+87455-10W10	Finisher	1	720	Svart Plastkåpa		Philipson kartong 1	
+87455-10W12	Finisher	1	720	Blå Plastkåpa			
+87615-01A00	Bolt	2	B11, N12 m fl	Svart, special		Kartong Träolja	
+87640-W1002	Board	4	910	Blå  			
+87694-1F720		1					
+88320-14R04	Trim-Cover	1					
+88670-61M01	Trim- Rear-Back	1	N13	0686-1088 (3HB+5HB) SLX			
+88841-D1202	Seat Belt	1	T11	Rött			
+88841-D1500	Seat Belt	1	T11	Grått			
+88850-13E03	Assy – Safety belt	1			Grått	Kartong Leksandsbröd	
+90352-w2700	Moulding	2	910	kromlister			
+90451-01M00	Stay	1	N12  	Gasfjäder baklucka?		Gett till Taman	150€
+90502-01M10	Lock Lift	1	N12, B11, S12	Låsmekanism baklucka		Kartong Bluebird MTR478	82$
+90502-R8000	Lock  	1	M10, E23	Låsmekanism baklucka		Philipson kartong 2	30$
+90510-10W02	Stay	3	720	Huvgångjärn?		Philipson kartong 1	
+90602-A9501	TAIL LOCK	1	510	UTAN NYCKEL?		KARTONG 3725	
+90606-R8215	Hanble-Set	1	E23	Stor list Nissan för baklucka			122$
+90801-U8625	Moul-Finish	1	810	kromlister bagagelucka kombi			
+90812-U8611		9	810	Plastclips		Kartong Träolja	
+90890-01R00	Emblem	1	M10	Prarie		Kartong Leksandsbröd	
+90890-30R01	Label Rear	1					
+90896-1N013	Label Rear	1					
+90900-60M02	Back Door	1	N13	Grå Plastpanel		Bland Lister och Paneler	
+90900-60M03	Finisher Assy-back door	1	N13	Svart plast på insida baklucka			
+922?0-W2100	Cock	1	910			Philipson kartong 2	
+92300-00QAA	Resistance-Elec	1					
+92408-W2100	Tube	1	910	Gummislang med koppling för värme		Philipson kartong 1	
+92470-H0050		4					
+93332-01W01	Rope Hook	1	720	Dragögla		Philipson kartong 1	
+93447-08W00	Bumper	1	720	Stötfångarhörn			
+93470-01G00	Hinge	1				Philipson kartong 1	
+93596-10W00		1		plåt		Philipson kartong 1	
+93840-2S400	Protector	1					
+95118-01W06	Bracket  	1	720	Kraftig Plåt		Kartong Pågen	
+96301-C8210	Door Mirror	1		Svart plast  			
+96302-28L25	Mirror	1	C31	Dörrspegel Vänster			
+96314-09M60	Packing  	1		Gummi bakom spegel		Philipson kartong 1	
+96315-D1101	Protector	1	T11	Gummipackning Vid spegel		Philipson kartong 1	
+96318-01M00	Grommet	1		Gummigenomföring		Philipson kartong 1	
+96318-04B10	Bracket  	1	K10	Svart Plastkåpa		Philipson kartong 1	
+96319-D1101	Rubber	1	T11	Gummi vid spegel		Philipson kartong 1	
+96321-03W20	Interior Mirror	1	720			Kartong Träolja	
+96502-D3000	Tray	1	T11?	Askkopp Grå dörr		Kartong Bluebird MTR478	
+96706-P0105	Grommet screw	1	E23,	grommet screw	flertal modeller		
+96928-VJ200	Lock A	1					
+96930-R8500	Rubber	1	E23	Runt Handbromsspak	Brun	Kartong Bluebird MTR480	
+98830-AY025		1					
+99038-41A17	Accent Stripe	1					
+A6455-60w00	Gasket Kit	1		DCF342 Carb			
+art nummer	beskrivning	antal	Modell	Kommentar	Färg	Lagerplats	Pris AMB el liknande
+B5050-U0200	Cable	1	610	Typ Hastighetsmätarkabel		Philipson kartong 1	
+B6080-69A00	Aim ADPT	3				Kartong Leksandsbröd	
+B6553-89915	Sealer	1	T12,				
+B7677-35F00	Bulb	1					
+D4100-08W90	Cup Kit R/W Cyl	1		Nabco incl 44112-P0201, 44124-T6000		vid sidan av	
+D4100-E0191	Cup Kit R/W Cyl	2		Tokico incl 44112-P0211, 44124-E0210, 41129-A2410		vid sidan av	
+Did 06B-2	Roller chain	1					
+F2022-01M85	Sub Bumper Kit	1		Med Stötfångare			
+G7905-P9160	Accent Stripe	1	S130			Till Hayder	
+G9924-01B00	Bump Rub Filler	1				Kartong Träolja	
+Ke998-KL025AA	Lackstift	1					
+KRC19-00025	Grease Front Hub	1					
+M255K	Main STD A10	1					
+M258K	Main STD A12	1					
+R255K	C/R STD A12/A14	1					
+SWN30045	A14 STD piston rings	1					

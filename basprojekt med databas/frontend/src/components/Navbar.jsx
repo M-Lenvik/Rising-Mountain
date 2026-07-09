@@ -32,7 +32,6 @@ export default function Navbar() {
 
       <div className={`${styles.links} ${menuOpen ? styles.linksOpen : ''}`}>
         <Link to="/shop" onClick={closeMenu}>Delar</Link>
-        <Link to="/list" onClick={closeMenu}>Kompletta listan</Link>
         <Link to="/shipping" onClick={closeMenu}>Frakt & retur</Link>
         <Link to="/about" onClick={closeMenu}>Om Rising Mountain</Link>
         <Link to="/contact" onClick={closeMenu}>Kontakt</Link>

@@ -1,0 +1,48 @@
+.page {
+  min-height: calc(100vh - 60px);
+}
+
+.content {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 48px 24px 64px;
+}
+
+.content h1 {
+  font-size: clamp(1.5rem, 5vw, 2.25rem);
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #1a1a1a;
+  margin-bottom: 24px;
+}
+
+.content h2 {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #888;
+  margin-top: 32px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: clamp(0.9rem, 2.5vw, 1rem);
+  line-height: 1.75;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.content a {
+  color: #2d5a27;
+  text-decoration: underline;
+}
+
+.content a:hover {
+  color: #3a7332;
+}
+
+@media (max-width: 600px) {
+  .content {
+    padding: 32px 16px 48px;
+  }
+}

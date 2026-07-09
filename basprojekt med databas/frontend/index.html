@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rising Mountain — Nissan Datsun Parts</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      (function() {
+        var p = window.location.search.match(/[?&]p=([^&]*)/);
+        if (p) {
+          var path = decodeURIComponent(p[1]);
+          var h = window.location.search.match(/[?&]h=([^&]*)/);
+          var hash = h ? '#' + decodeURIComponent(h[1]) : '';
+          window.history.replaceState(null, null, '/Rising-Mountain/' + (path ? path : '') + hash);
+        }
+      })();
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

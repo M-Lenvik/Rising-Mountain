@@ -1,68 +1,61 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { medusa } from '../lib/medusa.js'
+import { fetchProducts } from '../lib/inventory.js'
 import { getProductImage } from '../lib/productImages.js'
 import styles from './ProductPage.module.css'
 
 export default function ProductPage() {
-  const { handle } = useParams()
+  const { id } = useParams()
   const [product, setProduct] = useState(null)
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    medusa.store.product.list({
-      handle,
-      fields: '+variants.inventory_quantity',
-      region_id: 'reg_01KSW8SZAV6K59SW8V71X53A87',
-    }).then(({ products }) => {
-      setProduct(products[0] || null)
+    fetchProducts().then(data => {
+      setProduct(data.find(p => p.id === id) || null)
       setLoading(false)
     })
-  }, [handle])
+  }, [id])
 
   if (loading) return <div className={styles.loading}>Laddar...</div>
   if (!product) return <div className={styles.loading}>Produkten hittades inte.</div>
 
-  const variant = product.variants?.[0]
-  const price = variant?.calculated_price?.calculated_amount
-  const stock = variant?.inventory_quantity ?? 0
+  const img = getProductImage(product.id) || getProductImage(product.artnr)
 
   return (
     <div className={styles.page}>
       <Link to="/shop" className={styles.back}>← Tillbaka till butiken</Link>
       <div className={styles.layout}>
         <div className={styles.imgCol}>
-          {(() => { const img = product.thumbnail || getProductImage(product.handle); return img
-            ? <img src={img} alt={product.title} className={styles.img} />
+          {img
+            ? <img src={img} alt={product.beskrivning || product.artnr} className={styles.img} />
             : <div className={styles.imgPlaceholder}>🔧</div>
-          })()}
+          }
         </div>
         <div className={styles.infoCol}>
-          <h1 className={styles.title}>{product.title}</h1>
-          {variant?.sku && <div className={styles.sku}>Art.nr: {variant.sku}</div>}
-          {product.tags?.length > 0 && (
+          <h1 className={styles.title}>{product.beskrivning || product.artnr || '–'}</h1>
+          {product.artnr && <div className={styles.sku}>Art.nr: {product.artnr}</div>}
+          {product.modeller?.length > 0 && (
             <div className={styles.models}>
               <span className={styles.modelsLabel}>Passar:</span>
-              {product.tags.map(t => (
-                <span key={t.id} className={styles.modelBadge}>{t.value}</span>
+              {product.modeller.map(m => (
+                <span key={m} className={styles.modelBadge}>{m}</span>
               ))}
             </div>
           )}
-          {product.description && (
+          {product.kommentar && (
             <div className={styles.descBlock}>
               <div className={styles.descLabel}>Beskrivning</div>
-              <p className={styles.desc}>{product.description}</p>
+              <p className={styles.desc}>{product.kommentar}</p>
             </div>
           )}
           <div className={styles.price}>
-            {price != null ? `${Math.round(price)} kr` : '–'}
+            {product.pris || '–'}
           </div>
-          {stock > 0 && (
-            <div className={`${styles.stock} ${stock > 3 ? styles.inStock : styles.lowStock}`}>
-              {stock > 3 ? `✓ ${stock} i lager` : `Finns ${stock} st`}
+          {product.antal > 0 && (
+            <div className={`${styles.stock} ${product.antal > 3 ? styles.inStock : styles.lowStock}`}>
+              {product.antal > 3 ? `✓ ${product.antal} i lager` : `⚠ Endast ${product.antal} kvar`}
             </div>
           )}
-          <button className={styles.addBtn}>Köp</button>
         </div>
       </div>
     </div>

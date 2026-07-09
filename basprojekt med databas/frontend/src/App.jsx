@@ -5,7 +5,6 @@ import StorePage from './pages/StorePage.jsx'
 import ProductPage from './pages/ProductPage.jsx'
 import CartPage from './pages/CartPage.jsx'
 import AboutPage from './pages/AboutPage.jsx'
-import ListPage from './pages/ListPage.jsx'
 import ShippingPage from './pages/ShippingPage.jsx'
 import ContactPage from './pages/ContactPage.jsx'
 
@@ -16,10 +15,9 @@ export default function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/shop" element={<StorePage />} />
-        <Route path="/products/:id" element={<ProductPage />} />
+        <Route path="/products/:handle" element={<ProductPage />} />
         <Route path="/cart" element={<CartPage />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/list" element={<ListPage />} />
         <Route path="/shipping" element={<ShippingPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>

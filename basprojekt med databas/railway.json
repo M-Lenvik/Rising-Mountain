@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schema.railway.app/railway.schema.json",
+  "_comment": "Nixpacks build config for MedusaJS backend",
+  "build": {
+    "builder": "NIXPACKS",
+    "buildCommand": "cd backend/apps/backend && npm install && npm run build"
+  },
+  "deploy": {
+    "startCommand": "cd backend/apps/backend && npm run start",
+    "restartPolicyType": "ON_FAILURE"
+  }
+}
