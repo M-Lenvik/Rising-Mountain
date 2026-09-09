@@ -1,7 +1,6 @@
 import { useState, useEffect, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { fetchProducts } from '../lib/inventory.js'
-import { getProductImage } from '../lib/productImages.js'
 import styles from './StorePage.module.css'
 
 function FilterSection({ title, children, defaultOpen = true }) {
@@ -194,15 +193,10 @@ export default function StorePage() {
 }
 
 function ProductCard({ product }) {
-  const img = getProductImage(product.id) || getProductImage(product.artnr)
-
   return (
     <Link to={`/products/${product.id}`} className={styles.card}>
       <div className={styles.cardImg}>
-        {img
-          ? <img src={img} alt={product.beskrivning || product.artnr} />
-          : <span>🔧</span>
-        }
+        <span>🔧</span>
       </div>
       <div className={styles.cardBody}>
         {product.kategori && <div className={styles.cardKategori}>{product.kategori}</div>}

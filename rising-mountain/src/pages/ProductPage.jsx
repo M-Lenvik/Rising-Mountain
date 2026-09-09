@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { fetchProducts } from '../lib/inventory.js'
-import { getProductImage } from '../lib/productImages.js'
 import styles from './ProductPage.module.css'
 
 export default function ProductPage() {
@@ -19,17 +18,12 @@ export default function ProductPage() {
   if (loading) return <div className={styles.loading}>Laddar...</div>
   if (!product) return <div className={styles.loading}>Produkten hittades inte.</div>
 
-  const img = getProductImage(product.id) || getProductImage(product.artnr)
-
   return (
     <div className={styles.page}>
       <Link to="/shop" className={styles.back}>← Tillbaka till butiken</Link>
       <div className={styles.layout}>
         <div className={styles.imgCol}>
-          {img
-            ? <img src={img} alt={product.beskrivning || product.artnr} className={styles.img} />
-            : <div className={styles.imgPlaceholder}>🔧</div>
-          }
+          <div className={styles.imgPlaceholder}>🔧</div>
         </div>
         <div className={styles.infoCol}>
           <h1 className={styles.title}>{product.beskrivning || product.artnr || '–'}</h1>
