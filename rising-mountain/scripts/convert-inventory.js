@@ -193,7 +193,7 @@ function genSoktermer(beskrivning, kommentar) {
   return parts.join(' ') || null
 }
 
-const outPath = path.join(__dirname, '..', 'frontend', 'public', 'products.json')
+const outPath = path.join(__dirname, '..', 'public', 'products.json')
 fs.mkdirSync(path.dirname(outPath), { recursive: true })
 fs.writeFileSync(outPath, JSON.stringify(products, null, 2), 'utf-8')
 console.log(`✓ ${products.length} artiklar skrivna till ${outPath}`)

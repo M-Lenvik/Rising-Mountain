@@ -1,6 +1,6 @@
 # Rising Mountain — Nissan Datsun Parts
 
-Webbshop för veteranbildelar. Byggd med Medusa v2 (backend) + React/Vite (frontend).
+Webbshop för veteranbildelar. Ren frontend byggd med React/Vite — produktdatan kommer från en statisk `products.json`, ingen databas eller backend krävs.
 
 ---
 
@@ -8,43 +8,35 @@ Webbshop för veteranbildelar. Byggd med Medusa v2 (backend) + React/Vite (front
 
 ```
 rising-mountain/
-├── backend/    ← Medusa v2 server + admin
-└── frontend/   ← React-butiken (detta bygger vi)
+├── src/        ← React-butiken
+├── public/     ← statiska filer, bl.a. products.json
+└── scripts/    ← verktyg för att generera products.json från kalkylbladet
 ```
 
 ---
 
-## 1. Sätt upp backend (kör EN gång)
-
-Öppna terminalen i `rising-mountain/` och kör:
+## Kom igång
 
 ```bash
-npx create-medusa-app@latest backend
-```
-
-Välj när den frågar:
-- **Would you like to create the Next.js storefront?** → `No` (vi bygger vår egen)
-- **Database** → PostgreSQL (rekommenderas) eller SQLite för att testa lokalt snabbt
-
-När klart:
-```bash
-cd backend
-npx medusa develop
-```
-
-Admin-panelen öppnas på: http://localhost:9000/app
-
----
-
-## 2. Starta frontend (efter backend är uppe)
-
-```bash
-cd frontend
 npm install
 npm run dev
 ```
 
 Öppnas på: http://localhost:5173
+
+---
+
+## Bygga för produktion
+
+```bash
+npm run build
+```
+
+Publiceras till GitHub Pages med:
+
+```bash
+npm run deploy
+```
 
 ---
 

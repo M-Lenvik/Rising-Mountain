@@ -5,13 +5,6 @@ export default defineConfig({
   base: '/Rising-Mountain/',
   plugins: [react()],
   server: {
-    port: 5173,
-    proxy: {
-      '/api': {
-        target: 'http://localhost:9000',
-        changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, '')
-      }
-    }
+    port: 5173
   }
 })
