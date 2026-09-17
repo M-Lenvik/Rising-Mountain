@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import risingMountainImg from '../assets/RisingMountain_landingpage.png'
+import risingMountainImg from '../assets/RisingMountain_landingpage.webp'
 import styles from './LandingPage.module.css'
 
 export default function LandingPage() {

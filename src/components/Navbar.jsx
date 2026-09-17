@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import logoImg from '../assets/RisingMountain_logga.png'
+import logoImg from '../assets/RisingMountain_logga.webp'
 import styles from './Navbar.module.css'
 
 export default function Navbar() {
