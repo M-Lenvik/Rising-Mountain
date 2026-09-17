@@ -8,6 +8,7 @@ import AboutPage from './pages/AboutPage.jsx'
 import ListPage from './pages/ListPage.jsx'
 import ShippingPage from './pages/ShippingPage.jsx'
 import ContactPage from './pages/ContactPage.jsx'
+import NotFoundPage from './pages/NotFoundPage.jsx'
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="/list" element={<ListPage />} />
         <Route path="/shipping" element={<ShippingPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </>
   )

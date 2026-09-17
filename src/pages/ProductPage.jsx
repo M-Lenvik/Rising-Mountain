@@ -16,7 +16,14 @@ export default function ProductPage() {
   }, [id])
 
   if (loading) return <div className={styles.loading}>Laddar...</div>
-  if (!product) return <div className={styles.loading}>Produkten hittades inte.</div>
+  if (!product) return (
+    <div className={styles.page}>
+      <div className={styles.loading}>
+        <p>Produkten hittades inte.</p>
+        <Link to="/shop" className={styles.back}>← Tillbaka till butiken</Link>
+      </div>
+    </div>
+  )
 
   return (
     <div className={styles.page}>

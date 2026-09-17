@@ -28,7 +28,7 @@ export default function StorePage() {
 
   useEffect(() => {
     fetchProducts().then(data => {
-      setAllProducts(data)
+      setAllProducts(data.filter(p => p.antal > 0))
       setLoading(false)
     })
   }, [])
