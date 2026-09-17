@@ -96,6 +96,21 @@
 
 .cartBtn:hover { background: #b8973d; }
 
+.cartCount {
+  background: #2d5a27;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  min-width: 16px;
+  height: 16px;
+  padding: 0 4px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 6px;
+}
+
 .cartBtnMobile {
   display: none;
 }

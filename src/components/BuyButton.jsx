@@ -17,7 +17,7 @@ export default function BuyButton({ product, className }) {
 
   return (
     <button type="button" className={className} onClick={handleClick} disabled={added}>
-      {added ? '✓ I kundvagnen' : 'Köp'}
+      {added ? '✓ I kundkorgen' : 'Köp'}
     </button>
   )
 }

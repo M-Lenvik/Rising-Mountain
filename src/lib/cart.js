@@ -13,7 +13,7 @@ function saveCart(items) {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(items))
   } catch {
-    // localStorage otillgänglig (privat läge e.d.) — kundvagnen går inte att spara
+    // localStorage otillgänglig (privat läge e.d.) — kundkorgen går inte att spara
   }
   window.dispatchEvent(new Event('cart-updated'))
 }
