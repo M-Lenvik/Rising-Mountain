@@ -120,6 +120,33 @@
   font-weight: 600;
 }
 
+.buyCell {
+  white-space: nowrap;
+}
+
+.buyBtn {
+  background: #1a1a1a;
+  color: #fff;
+  border: none;
+  padding: 5px 12px;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 3px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.buyBtn:hover:not(:disabled) {
+  background: #c9a84c;
+  color: #000;
+}
+
+.buyBtn:disabled {
+  background: #eee;
+  color: #999;
+  cursor: not-allowed;
+}
+
 .loading {
   padding: 60px 0;
   text-align: center;

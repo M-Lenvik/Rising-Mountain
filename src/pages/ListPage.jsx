@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { fetchProducts } from '../lib/inventory.js'
+import BuyButton from '../components/BuyButton.jsx'
 import styles from './ListPage.module.css'
 
 export default function ListPage() {
@@ -56,6 +57,7 @@ export default function ListPage() {
                 <th>Detaljer</th>
                 <th>Kategori</th>
                 <th>Pris</th>
+                <th></th>
               </tr>
             </thead>
             <tbody>
@@ -74,6 +76,9 @@ export default function ListPage() {
                   <td>{p.kommentar || '–'}</td>
                   <td className={styles.kategori}>{p.kategori || '–'}</td>
                   <td className={styles.pris}>{p.pris || '–'}</td>
+                  <td className={styles.buyCell}>
+                    <BuyButton product={p} className={styles.buyBtn} />
+                  </td>
                 </tr>
               ))}
             </tbody>

@@ -17,8 +17,9 @@
 .inStock { color: #16a34a; }
 .lowStock { color: #d97706; }
 .outOfStock { color: #dc2626; }
-.addBtn { background: #1a1a1a; color: #fff; border: none; padding: 12px 28px; font-size: 14px; font-weight: 600; border-radius: 3px; width: 100%; max-width: 320px; }
-.addBtn:hover { background: #c9a84c; color: #000; }
+.addBtn { background: #1a1a1a; color: #fff; border: none; padding: 12px 28px; font-size: 14px; font-weight: 600; border-radius: 3px; width: 100%; max-width: 320px; cursor: pointer; }
+.addBtn:hover:not(:disabled) { background: #c9a84c; color: #000; }
+.addBtn:disabled { background: #ccc; color: #666; cursor: not-allowed; }
 .loading { padding: 60px 24px; text-align: center; color: #888; }
 
 @media (max-width: 768px) {

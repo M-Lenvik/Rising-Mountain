@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { fetchProducts } from '../lib/inventory.js'
+import BuyButton from '../components/BuyButton.jsx'
 import styles from './StorePage.module.css'
 
 function FilterSection({ title, children, defaultOpen = true }) {
@@ -234,33 +235,38 @@ export default function StorePage() {
 
 function ProductCard({ product }) {
   return (
-    <Link to={`/products/${product.id}`} className={styles.card}>
-      <div className={styles.cardImg}>
-        <span>🔧</span>
-      </div>
-      <div className={styles.cardBody}>
-        {product.kategori && <div className={styles.cardKategori}>{product.kategori}</div>}
-        <div className={styles.cardName}>{product.beskrivning || '–'}</div>
-        {product.artnr && <div className={styles.cardSku}>{product.artnr}</div>}
-        {product.modeller?.length > 0 && (
-          <div className={styles.cardModels}>
-            {product.modeller.slice(0, 4).map(m => (
-              <span key={m} className={styles.modelBadge}>{m}</span>
-            ))}
-          </div>
-        )}
-        {product.kommentar && <div className={styles.cardDesc}><strong>Beskrivning:</strong> {product.kommentar}</div>}
-        <div className={styles.cardFooter}>
-          <div>
-            <div className={styles.price}>{product.pris || '–'}</div>
-            {product.antal > 0 && (
-              <div className={`${styles.stock} ${product.antal > 3 ? styles.inStock : styles.lowStock}`}>
-                {product.antal > 3 ? `✓ Finns ${product.antal} st` : `⚠ ${product.antal} st kvar`}
-              </div>
-            )}
+    <div className={styles.card}>
+      <Link to={`/products/${product.id}`} className={styles.cardLink}>
+        <div className={styles.cardImg}>
+          <span>🔧</span>
+        </div>
+        <div className={styles.cardBody}>
+          {product.kategori && <div className={styles.cardKategori}>{product.kategori}</div>}
+          <div className={styles.cardName}>{product.beskrivning || '–'}</div>
+          {product.artnr && <div className={styles.cardSku}>{product.artnr}</div>}
+          {product.modeller?.length > 0 && (
+            <div className={styles.cardModels}>
+              {product.modeller.slice(0, 4).map(m => (
+                <span key={m} className={styles.modelBadge}>{m}</span>
+              ))}
+            </div>
+          )}
+          {product.kommentar && <div className={styles.cardDesc}><strong>Beskrivning:</strong> {product.kommentar}</div>}
+          <div className={styles.cardFooter}>
+            <div>
+              <div className={styles.price}>{product.pris || '–'}</div>
+              {product.antal > 0 && (
+                <div className={`${styles.stock} ${product.antal > 3 ? styles.inStock : styles.lowStock}`}>
+                  {product.antal > 3 ? `✓ Finns ${product.antal} st` : `⚠ ${product.antal} st kvar`}
+                </div>
+              )}
+            </div>
           </div>
         </div>
+      </Link>
+      <div className={styles.cardActions}>
+        <BuyButton product={product} className={styles.addBtn} />
       </div>
-    </Link>
+    </div>
   )
 }

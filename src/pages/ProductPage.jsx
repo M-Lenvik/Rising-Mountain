@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { fetchProducts } from '../lib/inventory.js'
+import BuyButton from '../components/BuyButton.jsx'
 import styles from './ProductPage.module.css'
 
 export default function ProductPage() {
@@ -57,6 +58,7 @@ export default function ProductPage() {
               {product.antal > 3 ? `✓ ${product.antal} i lager` : `⚠ Endast ${product.antal} kvar`}
             </div>
           )}
+          <BuyButton product={product} className={styles.addBtn} />
         </div>
       </div>
     </div>
