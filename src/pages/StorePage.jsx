@@ -25,6 +25,8 @@ export default function StorePage() {
   const [activeArtnr, setActiveArtnr] = useState([])
   const [artnrSearch, setArtnrSearch] = useState('')
   const [filtersOpen, setFiltersOpen] = useState(false)
+  const [page, setPage] = useState(1)
+  const pageSize = 24
 
   useEffect(() => {
     fetchProducts().then(data => {
@@ -71,6 +73,22 @@ export default function StorePage() {
       result = result.filter(p => activeArtnr.includes(p.artnr))
     return result
   }, [allProducts, search, activeKategorier, activeModels, activeArtnr])
+
+  useEffect(() => {
+    setPage(1)
+  }, [search, activeKategorier, activeModels, activeArtnr])
+
+  const totalPages = Math.max(1, Math.ceil(filtered.length / pageSize))
+  const currentPage = Math.min(page, totalPages)
+  const paged = useMemo(() =>
+    filtered.slice((currentPage - 1) * pageSize, currentPage * pageSize)
+  , [filtered, currentPage])
+
+  function goToPage(p) {
+    const clamped = Math.min(Math.max(p, 1), totalPages)
+    setPage(clamped)
+    document.querySelector(`.${styles.main}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
 
   function toggleKategori(k) {
     setActiveKategorier(prev => prev.includes(k) ? prev.filter(x => x !== k) : [...prev, k])
@@ -181,11 +199,33 @@ export default function StorePage() {
         ) : filtered.length === 0 ? (
           <div className={styles.empty}>Inga delar hittades.</div>
         ) : (
-          <div className={styles.grid}>
-            {filtered.map(product => (
-              <ProductCard key={product.id} product={product} />
-            ))}
-          </div>
+          <>
+            <div className={styles.grid}>
+              {paged.map(product => (
+                <ProductCard key={product.id} product={product} />
+              ))}
+            </div>
+
+            {totalPages > 1 && (
+              <div className={styles.pagination}>
+                <button
+                  type="button"
+                  onClick={() => goToPage(currentPage - 1)}
+                  disabled={currentPage === 1}
+                >
+                  ← Föregående
+                </button>
+                <span className={styles.pageInfo}>Sida {currentPage} av {totalPages}</span>
+                <button
+                  type="button"
+                  onClick={() => goToPage(currentPage + 1)}
+                  disabled={currentPage === totalPages}
+                >
+                  Nästa →
+                </button>
+              </div>
+            )}
+          </>
         )}
       </main>
     </div>
