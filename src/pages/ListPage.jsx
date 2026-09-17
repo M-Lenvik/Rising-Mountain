@@ -1,4 +1,5 @@
 import { useState, useEffect, useMemo } from 'react'
+import { Link } from 'react-router-dom'
 import { fetchProducts } from '../lib/inventory.js'
 import styles from './ListPage.module.css'
 
@@ -60,8 +61,12 @@ export default function ListPage() {
             <tbody>
               {filtered.map(p => (
                 <tr key={p.id}>
-                  <td className={styles.artnr}>{p.artnr || '–'}</td>
-                  <td>{p.beskrivning || '–'}</td>
+                  <td className={styles.artnr}>
+                    <Link to={`/products/${p.id}`} className={styles.rowLink}>{p.artnr || '–'}</Link>
+                  </td>
+                  <td>
+                    <Link to={`/products/${p.id}`} className={styles.rowLink}>{p.beskrivning || '–'}</Link>
+                  </td>
                   <td className={styles.antal}>{p.antal ?? '–'}</td>
                   <td className={styles.modeller}>
                     {p.modeller?.length > 0 ? p.modeller.join(', ') : '–'}
