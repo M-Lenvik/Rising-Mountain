@@ -7,10 +7,9 @@ Webbshop för veteranbildelar. Ren frontend byggd med React/Vite — produktdata
 ## Projektstruktur
 
 ```
-rising-mountain/
-├── src/        ← React-butiken
-├── public/     ← statiska filer, bl.a. products.json
-└── scripts/    ← verktyg för att generera products.json från kalkylbladet
+src/        ← React-butiken
+public/     ← statiska filer, bl.a. products.json
+scripts/    ← verktyg för att generera products.json från kalkylbladet
 ```
 
 ---
