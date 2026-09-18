@@ -15,6 +15,7 @@ dist-ssr
 original_files
 .claude
 kopflode.md
+.env
 
 # Editor directories and files
 .vscode/*
