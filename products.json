@@ -1568,7 +1568,7 @@
     "beskrivning": "Air Element",
     "antal": 1,
     "modeller": [
-      "B11 N12 Z31"
+      "B11", "N12", "Z31"
     ],
     "kommentar": null,
     "lagerplats": null,
