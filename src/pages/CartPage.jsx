@@ -3,8 +3,12 @@ import { Link } from 'react-router-dom'
 import { getCart, removeFromCart, clearCart } from '../lib/cart.js'
 import styles from './CartPage.module.css'
 
+const EMPTY_FORM = { namn: '', epost: '', leverans: 'hamta', adress: '', meddelande: '' }
+
 export default function CartPage() {
   const [items, setItems] = useState(() => getCart())
+  const [form, setForm] = useState(EMPTY_FORM)
+  const [error, setError] = useState('')
 
   useEffect(() => {
     function sync() {
@@ -25,6 +29,27 @@ export default function CartPage() {
   function handleClear() {
     clearCart()
     setItems([])
+  }
+
+  function updateField(field, value) {
+    setForm(f => ({ ...f, [field]: value }))
+  }
+
+  function handleSubmit(e) {
+    e.preventDefault()
+
+    if (!form.namn.trim() || !form.epost.trim()) {
+      setError('Fyll i namn och e-post.')
+      return
+    }
+    if (form.leverans === 'skicka' && !form.adress.trim()) {
+      setError('Fyll i leveransadress, eller välj hämta på plats.')
+      return
+    }
+
+    setError('')
+    // Mailutskicket (till säljare + köpare) kopplas in i nästa steg
+    console.log('Beställning redo att skickas:', { items, ...form })
   }
 
   if (items.length === 0) {
@@ -73,6 +98,83 @@ export default function CartPage() {
       </div>
 
       <Link to="/shop" className={styles.back}>← Fortsätt handla</Link>
+
+      <form className={styles.checkoutForm} onSubmit={handleSubmit}>
+        <h2 className={styles.formTitle}>Dina uppgifter</h2>
+
+        <label className={styles.formField}>
+          <span>Namn</span>
+          <input
+            type="text"
+            value={form.namn}
+            onChange={e => updateField('namn', e.target.value)}
+            required
+          />
+        </label>
+
+        <label className={styles.formField}>
+          <span>E-post</span>
+          <input
+            type="email"
+            value={form.epost}
+            onChange={e => updateField('epost', e.target.value)}
+            required
+          />
+        </label>
+
+        <div className={styles.formField}>
+          <span>Leveranssätt</span>
+          <div className={styles.radioGroup}>
+            <label className={styles.radioOption}>
+              <input
+                type="radio"
+                name="leverans"
+                value="hamta"
+                checked={form.leverans === 'hamta'}
+                onChange={() => updateField('leverans', 'hamta')}
+              />
+              Hämta på plats
+            </label>
+            <label className={styles.radioOption}>
+              <input
+                type="radio"
+                name="leverans"
+                value="skicka"
+                checked={form.leverans === 'skicka'}
+                onChange={() => updateField('leverans', 'skicka')}
+              />
+              Skicka hem
+            </label>
+          </div>
+        </div>
+
+        {form.leverans === 'skicka' && (
+          <label className={styles.formField}>
+            <span>Leveransadress</span>
+            <textarea
+              value={form.adress}
+              onChange={e => updateField('adress', e.target.value)}
+              rows={3}
+              placeholder="Namn, gatuadress, postnummer och ort"
+              required
+            />
+          </label>
+        )}
+
+        <label className={styles.formField}>
+          <span>Meddelande <span className={styles.optional}>(valfritt)</span></span>
+          <textarea
+            value={form.meddelande}
+            onChange={e => updateField('meddelande', e.target.value)}
+            rows={3}
+            placeholder="T.ex. frågor om delarna eller önskemål kring hämtning/leverans"
+          />
+        </label>
+
+        {error && <p className={styles.formError}>{error}</p>}
+
+        <button type="submit" className={styles.submitBtn}>Skicka beställning</button>
+      </form>
     </div>
   )
 }
