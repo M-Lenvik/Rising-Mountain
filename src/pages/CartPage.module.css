@@ -147,6 +147,16 @@
   color: #333;
 }
 
+.formRow {
+  display: flex;
+  gap: 16px;
+}
+
+.formRow .formField {
+  flex: 1;
+  min-width: 0;
+}
+
 .formField input,
 .formField textarea {
   font-family: inherit;

@@ -5,7 +5,15 @@ import { getCart, removeFromCart, clearCart } from '../lib/cart.js'
 import { generateOrderId, formatOrderItems, formatTotal } from '../lib/order.js'
 import styles from './CartPage.module.css'
 
-const EMPTY_FORM = { namn: '', epost: '', leverans: 'hamta', adress: '', meddelande: '' }
+const EMPTY_FORM = {
+  namn: '',
+  epost: '',
+  leverans: 'hamta',
+  gatuadress: '',
+  postnummer: '',
+  ort: '',
+  meddelande: '',
+}
 
 const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID
 const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID
@@ -50,8 +58,8 @@ export default function CartPage() {
       setError('Fyll i namn och e-post.')
       return
     }
-    if (form.leverans === 'skicka' && !form.adress.trim()) {
-      setError('Fyll i leveransadress, eller välj hämta på plats.')
+    if (form.leverans === 'skicka' && (!form.gatuadress.trim() || !form.postnummer.trim() || !form.ort.trim())) {
+      setError('Fyll i gatuadress, postnummer och ort, eller välj hämta på plats.')
       return
     }
 
@@ -63,7 +71,9 @@ export default function CartPage() {
       customerEmail: form.epost,
       order_id: generateOrderId(),
       delivery: form.leverans === 'hamta' ? 'Hämta på plats' : 'Skicka hem',
-      customerAddress: form.leverans === 'skicka' ? form.adress : '–',
+      customerAddress: form.leverans === 'skicka'
+        ? `${form.gatuadress.trim()}, ${form.postnummer.trim()} ${form.ort.trim()}`
+        : '–',
       order_items: formatOrderItems(items),
       message: form.meddelande.trim() || '–',
       total_order_cost: formatTotal(items),
@@ -87,7 +97,9 @@ export default function CartPage() {
     return (
       <div className={styles.page}>
         <h1>Tack för din förfrågan!</h1>
-        <p>En bekräftelse har skickats till din e-post. Jag återkommer så snart som möjligt. Eftersom jag har delarna på mitt lantställe kan det dröja en tid innan jag kan skicka dem.</p>
+        <p>En bekräftelse har skickats till din e-post. Jag återkommer så snart som möjligt.</p>
+        <p>Eftersom jag har delarna på mitt lantställe kan det dröja en tid innan jag kan skicka dem.</p>
+        <p>Om du inte får ett bekräftelsemail är det troligt att det fastnat i din skräppost. Om du inte får ett bekräftelsemail inom 24 timmar är det bäst att maila mig på rising.mountain.datsunparts@gmail.com.</p>
         <Link to="/shop" className={styles.back}>← Fortsätt handla</Link>
       </div>
     )
@@ -190,16 +202,39 @@ export default function CartPage() {
         </div>
 
         {form.leverans === 'skicka' && (
-          <label className={styles.formField}>
-            <span>Leveransadress</span>
-            <textarea
-              value={form.adress}
-              onChange={e => updateField('adress', e.target.value)}
-              rows={3}
-              placeholder="Namn, gatuadress, postnummer och ort"
-              required
-            />
-          </label>
+          <>
+            <label className={styles.formField}>
+              <span>Gatuadress</span>
+              <input
+                type="text"
+                value={form.gatuadress}
+                onChange={e => updateField('gatuadress', e.target.value)}
+                required
+              />
+            </label>
+
+            <div className={styles.formRow}>
+              <label className={styles.formField}>
+                <span>Postnummer</span>
+                <input
+                  type="text"
+                  value={form.postnummer}
+                  onChange={e => updateField('postnummer', e.target.value)}
+                  required
+                />
+              </label>
+
+              <label className={styles.formField}>
+                <span>Ort</span>
+                <input
+                  type="text"
+                  value={form.ort}
+                  onChange={e => updateField('ort', e.target.value)}
+                  required
+                />
+              </label>
+            </div>
+          </>
         )}
 
         <label className={styles.formField}>
